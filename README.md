@@ -1,4 +1,4 @@
-# My-journey-web-development
+# My-journey-web-developer
 
 ### This repository documents my journey to becoming a web developer, from beginner to professional. 
 
@@ -24,5 +24,12 @@
 #### &middot; Anchor elements (e.g., `<a>` and `<href>` attributes) are used to create hyperlinks. Hyperlinks allow users to click on a word or phrase to navigate to another web page.
 #### &middot; Image elements (e.g., `<img>` and `<src>` attribute) are used to add images to web pages. The src attribute specifies the location of the image file. The `<alt>` attribute provides a description of the image for users who cannot see it.
 #### To reinforce my understanding of these elements, I completed a mini project in which I created a birthday invitation card. I used the knowledge I had learned to create a heading for the card, a list of the guest's names, and an image of a birthday cake.
+<hr />
+
+### Day 3: Creating Multi-Page Websites
+#### On the third day of my web development journey, I learned how to create Multi-Page websites. This involved learning about the following elements:
+#### &middot; File paths are used to specify the location of files. For example, the path (../Folder) refers to a folder that is one level above the current folder. The path (./picture.img) refers to a file that is in the same folder as the current file.
+#### &middot; Webpages are the individual pages that make up a website. Each webpage has its own HTML file.
+#### To reinforce my understanding of these elements, I completed a mini project in which I created a portfolio. I used the knowledge I had learned to create a heading for the portfolio, a list of my skills, and a link to an about me page.
 <hr />
 
