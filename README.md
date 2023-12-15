@@ -28,8 +28,21 @@
 
 ### Day 3: Creating Multi-Page Websites
 #### On the third day of my web development journey, I learned how to create Multi-Page websites. This involved learning about the following elements:
-#### &middot; File paths are used to specify the location of files. For example, the path (../Folder) refers to a folder that is one level above the current folder. The path (./picture.img) refers to a file that is in the same folder as the current file.
+#### &middot; File paths are used to specify the location of files. For example, the path `../Folder` refers to a folder that is one level above the current folder. The path `./picture.img` refers to a file that is in the same folder as the current file.
 #### &middot; Webpages are the individual pages that make up a website. Each webpage has its own HTML file.
 #### To reinforce my understanding of these elements, I completed a mini project in which I created a portfolio. I used the knowledge I had learned to create a heading for the portfolio, a list of my skills, and a link to an about me page.
 <hr />
 
+### Day 4: Basic CSS properties
+#### On the fourth day of my web development journey, I learned about the basic properties of CSS. These properties are used to control the appearance of HTML elements.
+#### I learned about the following properties:
+#### &middot; Adding properties : 
+#### <ul> <li>Inline properties are added directly to HTML elements, using the `style` attribute. For example, the following code will set the font size of all `h1` elements to 24 pixels: `<h1 style="font-size: 24px;">This is a heading</h1>`</li> 
+#### <li> Internal properties are added to the `<style>` tag in an HTML document. For example, the following code will set the font size of all `h1` elements to 24 pixels on the current page: `<style> h1{font-size: 24px;} </style>` </li>
+#### <li> External properties are added to an external stylesheet, which is linked to the HTML document using the `<link>` tag. For example, the following code will set the font size of all `h1` elements to 24 pixels on all pages of the website: `<link rel="stylesheet" href="style.css">` </li> </ul>
+#### &middot; Selectors : Selectors are used to select HTML elements to which CSS properties will be applied. There are many different types of selectors, each of which selects a different set of elements.
+#### <ul> <li> For example, the following selector will select all `h1` elements: `h1{...}` </li>
+#### <li> The following selector will select all elements with the class `red`: `.red {...}` </li>
+#### <li> The following selector will select the element with the ID `my-id`: `#my-id {...}` </li> </ul>
+#### To reinforce my understanding of these properties, I completed a mini project in which I created a web page about storing Spanish color vocabulary. I used the knowledge I had learned to style the page using CSS properties and selectors.
+<hr />
