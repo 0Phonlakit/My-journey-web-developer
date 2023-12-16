@@ -46,3 +46,24 @@
 #### <li> The following selector will select the element with the ID `my-id`: `#my-id {...}` </li> </ul>
 #### To reinforce my understanding of these properties, I completed a mini project in which I created a web page about storing Spanish color vocabulary. I used the knowledge I had learned to style the page using CSS properties and selectors.
 <hr />
+
+### Day 5: Additional Basic CSS Properties
+#### On the fifth day of my web development journey, I learned about additional basic properties in CSS. These properties are used to control the appearance of HTML elements.
+#### I learned about the following properties:
+#### &middot; CSS Colors
+#### <ul> <li>Global colors can be set using the color property in the <style> tag. For example, the following code will set the default color of all text on the page to red: `<style> color: red; </style>` </li>
+#### <li>**Local colors** can be set using the `color` property on an individual element. For example, the following code will set the color of the `h1` element to blue:`<h1 style="color: blue;"> This is a heading</h1>` </li>
+#### &middot; Font Properties
+#### <ul> <li> Font size can be set using the font-size property. For example, the following code will set the font size of all text on the page to 24 pixels: `<style> font-size: 24px; </style>` </li>
+#### <li> **Font family** can be set using the `font-family` property. For example, the following code will set the font family of all text on the page to Times New Roman: <style> `font-family: Times New Roman </style>`
+#### &middot; CSS Box Model 
+#### <ul> <li> The box model is a way of describing the layout of an HTML element. The box model consists of four parts: the width, height, border, and padding. </li>
+#### <li> The `width` and `height` properties set the size of the element's content area. </li>
+#### <li> The `border` property sets the width and style of the element's border. </li>
+#### <li> The `padding` property sets the amount of space between the element's content area and its border. </li>
+#### <li> The `margin` property sets the amount of space between the element and its surrounding elements. </li>
+#### <li> The `<div>` element is a generic container element that can be used to group other elements together. </li> </ul>
+#### &middot; Mini project on Beginner additional CSS
+#### I used the knowledge I had learned to create a web page to display memes. I used the `<div>` element to group the meme images together, and I used the border property to add a `border` around the images. I also used the `font-size` and `font-family` properties to change the appearance of the text on the page. 
+<hr />
+
