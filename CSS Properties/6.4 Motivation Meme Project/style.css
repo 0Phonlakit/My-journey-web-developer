@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+
+p {
+    font-size: 25px;
+}
+
+.blog {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+  }
+
+.img-size {
+    border: 5px solid white;
+    width: 70%;
+}

@@ -1,0 +1,43 @@
+div {
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    display: block;
+    color: white;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+#box1 {
+    background-color: #2080df;
+    padding: 20px;
+    border: 10px solid black;
+}
+
+#box2 {
+    background-color: #c1ecac;
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    margin-left: 260px;
+}
+
+#box3 {
+    background-color: #e1acec;
+    border: 10px solid black;
+    margin-left: 40px;
+}
+
+/* you can use this in id="box2" */
+/* #box2 {
+    background-color: #c1ecac;
+    border: solid black;
+    border-width: 20px 10px;
+    margin-left: 260px;
+} */
