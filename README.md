@@ -88,3 +88,29 @@
 #### &middot; Mini project on Intermediate CSS
 #### <ul> <li> I used the knowledge I had learned to create a web page to store national flags. I used the `<div>` element to group the flag images together, and I used the `position` property to position the images. I also used the `padding` and `margin` properties to control the spacing around the images. </li>
 <hr />
+
+### Day 7: Advanced CSS Properties
+#### On the seventh day of my web development journey, I learned about advanced properties in CSS. These properties are used to create more complex and sophisticated layouts.
+#### I learned about the following properties:
+#### &middot; Display
+#### <ul> <li> `Inline` and `inline-block` have similar behavior in that they will cause two elements to appear on the same line. `Inline` will display as a single line of text, while `inline-block` will display as a box with its own width and height. </li>
+#### <li> `Block` will display as a box, one per line, in row order. </li>
+#### <li> `None` will disable the display of an element.</li> </ul>
+#### &middot; Float
+#### <ul> <li> `Float-right` will float an element to the right of its containing element. </li>
+#### <li> `Float-left` will float an element to the left of its containing element.. </li>
+#### <li> `'clear: both'` will clear all floats in the containing element. </li> </ul>
+#### &middot; Responsiveness
+#### <ul> <li> `Responsiveness` is a technique that allows a web page to adapt to different screen sizes and resolutions. </li>
+#### <li> `Media` queries are used to specify how a web page should be displayed at different screen sizes. </li>
+#### <li> `Flexbox` is a layout system that allows elements to be flexibly arranged in a single dimension. </li>
+#### <li> `Grid` is a layout system that allows elements to be flexibly arranged in two dimensions. </li>
+#### <li> `Bootstrap` is a CSS framework that provides a set of pre-defined styles and components that can be used to create responsive web pages. </li> </ul>
+#### &middot; Media Query
+#### <ul> <li> `@media` is used to call media queries. </li>
+#### <li> `min-width` specifies the minimum width of the screen at which the media query should be applied.ill work. </li>
+#### <li> `max-width` specifies the maximum width of the screen at which the media query should be applied. </li>
+#### <li> `Both min-width and max-width` can be used together to specify a range of screen sizes at which the media query should be applied.</li> </ul>
+#### &middot; Mini project on Advanced CSS
+#### <ul> <li>I used the knowledge I had learned to create a blog page with articles that display on both computer and phone screens. </li> </ul>
+<hr />
