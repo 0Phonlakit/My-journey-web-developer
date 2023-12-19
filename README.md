@@ -112,5 +112,19 @@
 #### <li> `max-width` specifies the maximum width of the screen at which the media query should be applied. </li>
 #### <li> `Both min-width and max-width` can be used together to specify a range of screen sizes at which the media query should be applied.</li> </ul>
 #### &middot; Mini project on Advanced CSS
-#### <ul> <li>I used the knowledge I had learned to create a blog page with articles that display on both computer and phone screens. </li> </ul>
+#### <ul> <li> I used the knowledge I had learned to create a blog page with articles that display on both computer and phone screens. </li> </ul>
+<hr />
+
+### Day 8: Flexbox in CSS
+#### On the eighth day of my web development journey, I learned about flexbox in CSS. Flexbox is a layout system that allows elements to be flexibly arranged in a single dimension. This makes it a powerful tool for creating responsive web pages.
+#### &middot; Displays Flexbox
+#### <ul> <li> Flexbox is a display mode that can be used to make elements behave like a single, flexible container. </li>
+#### <li> To use flexbox, you need to set the display property of the container element to flex or inline-flex. </li> </ul> 
+#### &middot; Flex Direction
+#### <ul> <li> The flex direction property specifies the direction in which flex items are laid out. </li>
+#### <li> The default flex direction is `row`, which means that flex items are laid out from left to right. </li>
+#### <li> To lay out flex items vertically, you can set the flex direction to `column`. </li> </ul> 
+#### &middot; Mini project on Flexbox
+#### <ul> <li> I used the knowledge I had learned to create a web page about pricing. </li>
+#### <li> The page uses flexbox to arrange the pricing information in a responsive way. </li> </ul>
 <hr />
