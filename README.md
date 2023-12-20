@@ -119,7 +119,7 @@
 #### On the eighth day of my web development journey, I learned about flexbox in CSS. Flexbox is a layout system that allows elements to be flexibly arranged in a single dimension. This makes it a powerful tool for creating responsive web pages.
 #### &middot; Displays Flexbox
 #### <ul> <li> Flexbox is a display mode that can be used to make elements behave like a single, flexible container. </li>
-#### <li> To use flexbox, you need to set the display property of the container element to flex or inline-flex. </li> </ul> 
+#### <li> To use flexbox, you need to set the `display` property of the container element to `flex` or `inline-flex.` </li> </ul> 
 #### &middot; Flex Direction
 #### <ul> <li> The flex direction property specifies the direction in which flex items are laid out. </li>
 #### <li> The default flex direction is `row`, which means that flex items are laid out from left to right. </li>
@@ -128,3 +128,25 @@
 #### <ul> <li> I used the knowledge I had learned to create a web page about pricing. </li>
 #### <li> The page uses flexbox to arrange the pricing information in a responsive way. </li> </ul>
 <hr />
+
+### Day 9: Grid in CSS
+#### On the ninth day of my web development journey, I learned about grid in CSS. Grid is a layout system that allows elements to be flexibly arranged in two dimensions. This makes it a powerful tool for creating complex and sophisticated layouts.
+#### &middot; Display Grid
+#### <ul> <li> Grid is a display mode that can be used to make elements behave like a single, flexible container. </li>
+#### <li> To use grid, you need to set the `display` property of the container element to `grid`. </li> </ul>
+#### &middot; Grid Sizing
+#### <ul> <li> The grid sizing properties specify the size of the grid columns and rows. </li>
+#### <li> The `grid-template-columns` property specifies the width of the grid columns. </li>
+#### <li> The `grid-template-rows` property specifies the height of the grid rows. </li>
+#### <li> You can also use the `grid-column-gap` and `grid-row-gap` properties to specify the gap between columns and rows. </li> </ul>
+#### &middot; Grid Placement
+#### <ul> <li> The grid placement properties specify the position of elements within the grid. </li>
+#### <li> The `grid-column` property specifies the column in which an element is placed. </li>
+#### <li> The `grid-row` property specifies the row in which an element is placed. </li>
+#### <li> You can also use the `grid-area` property to specify the area in which an element is placed. </li> </ul>
+#### &middot; Mini project on Grid
+#### <ul> <li>I used the knowledge I had learned to create a web page about the work of Piet Mondrian. </li>
+#### <li> The page uses grid to arrange the paintings in a visually appealing way. </li> </ul>
+<hr />
+
+
