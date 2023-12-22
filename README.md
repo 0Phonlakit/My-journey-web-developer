@@ -145,8 +145,20 @@
 #### <li> The `grid-row` property specifies the row in which an element is placed. </li>
 #### <li> You can also use the `grid-area` property to specify the area in which an element is placed. </li> </ul>
 #### &middot; Mini project on Grid
-#### <ul> <li>I used the knowledge I had learned to create a web page about the work of Piet Mondrian. </li>
+#### <ul> <li> I used the knowledge I had learned to create a web page about the work of Piet Mondrian. </li>
 #### <li> The page uses grid to arrange the paintings in a visually appealing way. </li> </ul>
 <hr />
 
-
+### Day 10: Bootstrap in CSS
+#### On the tenth day of my web development journey, I learned about Bootstrap in CSS. Bootstrap is a CSS framework that provides a set of pre-defined styles and components that can be used to create responsive web pages.
+####  &middot; Bootstrap Intro
+#### <ul> <li> Bootstrap is a powerful tool that can help you to create beautiful and responsive web pages quickly and easily. </li>
+#### <li> Bootstrap containers are a great way to create a responsive layout. You can use the `container-sm` class to create a container that will display correctly on small screens. </li>
+#### <li> Bootstrap can be used with grid and flexbox to create even more complex layouts. </li> </ul>
+#### &middot; Bootstrap Components
+#### <ul> <li> Bootstrap components are a great way to add functionality and style to your web pages. </li>
+#### <li> Some of the most common Bootstrap components include nav bars, features, and buttons. </li>
+#### <li> Bootstrap provides a variety of templates that you can use to get started with creating a Bootstrap web page. </li> </ul>
+#### &middot; Mini project on Bootstrap
+#### <ul> <li> I used the knowledge I had learned to create a web page to promote the Tin Dog app. </li>
+#### <li> The page uses Bootstrap components to create a visually appealing and responsive layout. </li> </ul>
