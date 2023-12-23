@@ -162,3 +162,35 @@
 #### &middot; Mini project on Bootstrap
 #### <ul> <li> I used the knowledge I had learned to create a web page to promote the Tin Dog app. </li>
 #### <li> The page uses Bootstrap components to create a visually appealing and responsive layout. </li> </ul>
+<hr />
+
+### Day 11: Basic JavaScript Concepts
+#### On the eleventh day of my web development journey, I learned about the basic concepts of JavaScript. JavaScript is a programming language that is used to add interactivity to web pages.
+#### <ul> <li> Variables 
+##### <li> Variables are used to store data in JavaScript. </li>
+##### <li> To declare a variable in JavaScript, you use the `var` keyword. </li>
+##### <li> For example, the following code declares two variables, `a` and `b`: `var a = "3";` `var b = "8";` </li>
+##### <li>You can assign the value of one variable to another variable using the `=` operator. </li>
+##### <li> For example, the following code assigns the value of `a` to `b`: `var a = "3";` `var b = a;` </li> </li> </ul>
+#### <ul> <li> Strings
+##### <li> Strings are used to represent text in JavaScript. </li>
+##### <li> You can create a string by enclosing text in double quotes (`"`). </li>
+##### <li> For example, the following code creates a string called `name`: `var name = "John Doe";` </li>
+##### <li> You can use the .slice() method to extract a substring from a string. </li>
+##### <li> For example, the following code extracts the first three characters from the string name: `var name = "John Doe";` `var firstThreeCharacters = name.slice(0, 3);` </li>
+##### <li> You can use the .length property to get the length of a string. </li>
+##### <li> For example, the following code gets the length of the string name: `var name = "John Doe";` `var lengthOfName = name.length;` </li> </li> </ul>
+#### <ul> <li> Basic Arithmetic
+##### <li> You can use mathematical operators to perform arithmetic operations in JavaScript. </li>
+##### <li> For example, the following code adds two numbers together: `var a = 1;` `var b = 2;` `var sum = a + b;` </li>
+##### <li> You can also use mathematical operators to perform subtraction, multiplication, and division. </li> </li> </ul>
+#### <ul> <li> Functions
+##### <li> Functions are a way to group code together so that it can be reused. </li>
+##### <li>To create a function in JavaScript, you use the `function` keyword. </li>
+##### <li>For example, the following code creates a function called `myFunction()`: `function myFunction() { // Code goes here }` </li>
+##### <li>You can call a function by using its name. </li>
+##### <li>For example, the following code calls the function `myFunction()`: `myFunction();` </li>
+##### <li> Challenges: The following challenges were completed to practice the concepts learned:
+##### <li> Challenge 1: Write a function that calculates the number of days a person will live based on the average human lifespan of 90 years. </li>
+##### <li> Challenge 2: Write a function that calculates the body mass index (BMI) of a person. </li> </li> </li> </ul>
+<hr />
