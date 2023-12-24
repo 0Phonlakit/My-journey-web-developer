@@ -194,3 +194,30 @@
 ##### <li> Challenge 1: Write a function that calculates the number of days a person will live based on the average human lifespan of 90 years. </li>
 ##### <li> Challenge 2: Write a function that calculates the body mass index (BMI) of a person. </li> </li> </li> </ul>
 <hr />
+
+### Day 12: Intermediate JavaScript Concepts
+#### On the twelfth day of my web development journey, I learned about the intermediate concepts of JavaScript. JavaScript is a programming language that is used to add interactivity to web pages.
+#### <ul> <li> Random
+##### <li> Random is a function that can be used to generate a random number. </li>
+##### <li> The `Math.random()` function returns a number between 0 and 1. [Image of The `Math.random()` function] </li>
+##### <li> You can use the `Math.random()` function to generate random numbers for a variety of purposes, such as generating a random number for a game or creating a random password. </li> </li> </ul>
+#### <ul> <li> If-Else
+##### <li> If-else statements are used to execute code based on a condition. </li>
+##### <li> The syntax for an if-else statement is as follows: `if (condition) { // Code to be executed if the condition is true}  else { // Code to be executed if the condition is false}` </li> </li> </ul>
+#### <ul> <li> Arrays
+##### <li> Arrays are used to store a collection of data. </li>
+##### <li> The syntax for creating an array is as follows: `var array = [1, 2, 3, 4, 5];` </li>
+##### <li> You can access the elements of an array by using their index. The index starts at 0. </li> </li> </ul>
+####  <ul> <li> While Loop
+##### <li> While loops are used to execute code repeatedly until a condition is met. </li>
+##### <li> The syntax for a while loop is as follows: `while (condition) { // Code to be executed repeatedly}` </li> </li> </ul>
+#### <ul> <li> For Loop
+##### <li> For loops are used to execute code repeatedly for a specific number of times. </li>
+##### <li> The syntax for a for loop is as follows: `for (var i = 0; i < 10; i++) {// Code to be executed repeatedly}` </li> </li> </ul>
+#### <ul> <li> Challenges : The following challenges were completed to practice the concepts learned:
+##### <li> Challenge 1: Write a program that uses the `Math.random()` function to generate a random number between 1 and 100. </li>
+##### <li> Challenge 2: Write a program that uses an if-else statement to determine if a number is even or odd. </li>
+##### <li> Challenge 3: Write a program that uses an array to store the names of your friends. Then, use a while loop to print the names of your friends one at a time. </li>
+##### <li> Challenge 4: Write a program that uses a while loop to print the numbers from 1 to 100. </li>
+##### <li> Challenge 5: Write a program that uses a for loop to calculate the Fibonacci sequence. </li> </li> </ul>
+<hr />
