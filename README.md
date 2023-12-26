@@ -221,3 +221,31 @@
 ##### <li> Challenge 4: Write a program that uses a while loop to print the numbers from 1 to 100. </li>
 ##### <li> Challenge 5: Write a program that uses a for loop to calculate the Fibonacci sequence. </li> </li> </ul>
 <hr />
+
+### Day 13: Document Object Model (DOM) in JavaScript
+#### On the thirteenth day of my web development journey, I learned about the Document Object Model (DOM) in JavaScript. The DOM is a programming interface that allows JavaScript to interact with HTML and CSS elements.
+#### <ul> <li> Adding JavaScript
+##### <li> JavaScript can be added to HTML using the `<script>` tag. The `<script>` tag should be placed at the bottom of the `<body>` tag. </li>
+##### <li> JavaScript code is executed in a hierarchical order. If the order of execution is incorrect, errors may occur. </li> </li> </ul>
+#### <ul> <li> Document Object Model (DOM)
+##### <li> The DOM can be used to access and manipulate HTML and CSS elements. </li>
+##### <li> To access an HTML element, you can use the `document.querySelector()` method. </li>
+##### <li> To change the content of an HTML element, you can use the `.innerHTML` property. </li> </li> </ul>
+#### <ul> <li> Selecting HTML elements
+##### <li> To select all HTML elements with a particular class or ID, you can use the `document.querySelectorAll()` method. </li>
+##### <li> To select a single HTML element, you can use the `document.querySelector()` method. </li> </li> </ul>
+####  <ul> <li> Manipulating and changing styles
+##### <li> change the style of an HTML element without changing the CSS, you can use the `.style` property. </li>
+##### <li> For example, to change the font size of an element, you would use the following code: `document.querySelector("element").style.fontSize = "16px";` </li> </li> </ul>
+#### <ul> <li> The Separation of Concerns
+##### <li> To avoid having to modify HTML code to add or remove CSS classes, you can use the `.classList` property. </li>
+##### <li> For example, to add a CSS class to an element, you would use the following code: `document.querySelector("element").classList.add("my-class");` </li> </li> </ul>
+#### <ul> <li> Text manipulating and text content property
+##### <li> To make text in HTML italic, you can use the `<em>` tag. </li>
+##### <li> For example, to make the text "This is italic" italic, you would use the following code: `<p>This is italic <em>This is italic</em></p>` </li> </li> </ul>
+#### <ul> <li> Manipulating HTML element attributes
+##### <li> To change the href attribute of an HTML anchor element, you can use the `.setAttribute()` method. </li>
+##### <li> For example, to change the href attribute of an element with the ID "my-link" to "https://www.example.com", you would use the following code: `document.querySelector("#my-link").setAttribute("href", "https://www.example.com");` </li> </li> </ul>
+<hr />
+
+
