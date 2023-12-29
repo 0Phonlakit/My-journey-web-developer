@@ -248,4 +248,14 @@
 ##### <li> For example, to change the href attribute of an element with the ID "my-link" to "https://www.example.com", you would use the following code: `document.querySelector("#my-link").setAttribute("href", "https://www.example.com");` </li> </li> </ul>
 <hr />
 
+### Day 14: Dice Game Project
+#### On the fourteenth day of my web development journey, I used the knowledge I had learned from the basic, intermediate, and DOM JavaScript topics to create a dice game project.
+#### The game is a simple dice game that uses the Math.random() function to generate random numbers for the dice rolls. The player rolls the dice by refreshing the HTML file. The player with the higher number wins the round. If the dice rolls are tied, the game is a draw.
+##### <ul> <li> The project uses the following JavaScript concepts: 
+##### <li> Basic JavaScript concepts: variables, strings, arithmetic operators, functions, and if-else statements. </li>
+##### <li> Intermediate JavaScript concepts: arrays and loops. </li>
+##### <li> DOM concepts: accessing HTML elements, manipulating HTML elements, and changing HTML element styles. </li> </li> </ul>
+<hr />
+
+
 
