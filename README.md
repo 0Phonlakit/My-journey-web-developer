@@ -257,5 +257,17 @@
 ##### <li> DOM concepts: accessing HTML elements, manipulating HTML elements, and changing HTML element styles. </li> </li> </ul>
 <hr />
 
-
+### Day 15: Advanced Document Object Model (DOM) in JavaScript
+#### On the fifteenth day of my web development journey, I learned about the advanced Document Object Model (DOM) in JavaScript.
+#### <ul> <li> Passing Functions
+##### <li> Functions can be passed as arguments to other functions. </li>
+##### <li> For example, the following code defines two functions, `add()` and `subtract()`, and a third function, `calculator()`, that uses `add()` and `subtract()`. </li> </li> </ul>
+#### <ul> <li> Objects in JavaScript
+##### <li> Objects can be used to store data in a single variable. </li>
+##### <li> For example, the following code defines an object called `houseKeeper1` that stores three properties: `yearsOfExperience`, `name`, and `cleaningRepertoire`. </li>
+##### <li> Objects can also be created using functions. </li>
+##### <li> Objects can be cleared using the .clear() method. </li> </li> </ul>
+#### <ul> <li> Mini Project on Advanced DOM
+##### <li> I used the knowledge I had learned about advanced DOM to create a web page that plays drum sounds when a key is pressed on the keyboard. </li> </li> </ul>
+<hr />
 
