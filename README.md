@@ -30,43 +30,45 @@
 
 ### Day 3: Creating Multi-Page Websites
 #### On the third day of my web development journey, I learned how to create Multi-Page websites. This involved learning about the following elements:
-#### &middot; File paths are used to specify the location of files. For example, the path `../Folder` refers to a folder that is one level above the current folder. The path `./picture.img` refers to a file that is in the same folder as the current file.
-#### &middot; Webpages are the individual pages that make up a website. Each webpage has its own HTML file.
-#### To reinforce my understanding of these elements, I completed a mini project in which I created a portfolio. I used the knowledge I had learned to create a heading for the portfolio, a list of my skills, and a link to an about me page.
+* File paths are used to specify the location of files. For example, the path `../Folder` refers to a folder that is one level above the current folder. The path `./picture.img` refers to a file that is in the same folder as the current file.
+* Webpages are the individual pages that make up a website. Each webpage has its own HTML file.
+
+**To reinforce my understanding of these elements, I completed a mini project in which I created a portfolio. I used the knowledge I had learned to create a heading for the portfolio, a list of my skills, and a link to an about me page.**
 <hr />
 
 ### Day 4: Basic CSS properties
 #### On the fourth day of my web development journey, I learned about the basic properties of CSS. These properties are used to control the appearance of HTML elements.
 #### I learned about the following properties:
-#### &middot; Adding properties : 
-#### <ul> <li>Inline properties are added directly to HTML elements, using the `style` attribute. For example, the following code will set the font size of all `h1` elements to 24 pixels: `<h1 style="font-size: 24px;">This is a heading</h1>`</li> 
-#### <li> Internal properties are added to the `<style>` tag in an HTML document. For example, the following code will set the font size of all `h1` elements to 24 pixels on the current page: `<style> h1{font-size: 24px;} </style>` </li>
-#### <li> External properties are added to an external stylesheet, which is linked to the HTML document using the `<link>` tag. For example, the following code will set the font size of all `h1` elements to 24 pixels on all pages of the website: `<link rel="stylesheet" href="style.css">` </li> </ul>
-#### &middot; Selectors : Selectors are used to select HTML elements to which CSS properties will be applied. There are many different types of selectors, each of which selects a different set of elements.
-#### <ul> <li> For example, the following selector will select all `h1` elements: `h1{...}` </li>
-#### <li> The following selector will select all elements with the class `red`: `.red {...}` </li>
-#### <li> The following selector will select the element with the ID `my-id`: `#my-id {...}` </li> </ul>
-#### To reinforce my understanding of these properties, I completed a mini project in which I created a web page about storing Spanish color vocabulary. I used the knowledge I had learned to style the page using CSS properties and selectors.
+* Adding properties : 
+  * Inline properties are added directly to HTML elements, using the `style` attribute. For example, the following code will set the font size of all `h1` elements to 24 pixels: `<h1 style="font-size: 24px;">This is a heading</h1>`
+  * Internal properties are added to the `<style>` tag in an HTML document. For example, the following code will set the font size of all `h1` elements to 24 pixels on the current page: `<style> h1{font-size: 24px;} </style>` 
+  * External properties are added to an external stylesheet, which is linked to the HTML document using the `<link>` tag. For example, the following code will set the font size of all `h1` elements to 24 pixels on all pages of the website: `<link rel="stylesheet" href="style.css">`
+* Selectors : Selectors are used to select HTML elements to which CSS properties will be applied. There are many different types of selectors, each of which selects a different set of elements.
+  * For example, the following selector will select all `h1` elements: `h1{...}`
+  * The following selector will select all elements with the class `red`: `.red {...}` 
+     The following selector will select the element with the ID `my-id`: `#my-id {...}` 
+     
+**To reinforce my understanding of these properties, I completed a mini project in which I created a web page about storing Spanish color vocabulary. I used the knowledge I had learned to style the page using CSS properties and selectors.**
 <hr />
 
 ### Day 5: Additional Basic CSS Properties
 #### On the fifth day of my web development journey, I learned about additional basic properties in CSS. These properties are used to control the appearance of HTML elements.
 #### I learned about the following properties:
-#### &middot; CSS Colors
-#### <ul> <li>Global colors can be set using the color property in the <style> tag. For example, the following code will set the default color of all text on the page to red: `<style> color: red; </style>` </li>
-#### <li>**Local colors** can be set using the `color` property on an individual element. For example, the following code will set the color of the `h1` element to blue:`<h1 style="color: blue;"> This is a heading</h1>` </li>
-#### &middot; Font Properties
-#### <ul> <li> Font size can be set using the font-size property. For example, the following code will set the font size of all text on the page to 24 pixels: `<style> font-size: 24px; </style>` </li>
-#### <li> **Font family** can be set using the `font-family` property. For example, the following code will set the font family of all text on the page to Times New Roman: <style> `font-family: Times New Roman </style>`
-#### &middot; CSS Box Model 
-#### <ul> <li> The box model is a way of describing the layout of an HTML element. The box model consists of four parts: the width, height, border, and padding. </li>
-#### <li> The `width` and `height` properties set the size of the element's content area. </li>
-#### <li> The `border` property sets the width and style of the element's border. </li>
-#### <li> The `padding` property sets the amount of space between the element's content area and its border. </li>
-#### <li> The `margin` property sets the amount of space between the element and its surrounding elements. </li>
-#### <li> The `<div>` element is a generic container element that can be used to group other elements together. </li> </ul>
-#### &middot; Mini project on Beginner additional CSS
-#### I used the knowledge I had learned to create a web page to display memes. I used the `<div>` element to group the meme images together, and I used the border property to add a `border` around the images. I also used the `font-size` and `font-family` properties to change the appearance of the text on the page. 
+* CSS Colors
+  * Global colors can be set using the color property in the <style> tag. For example, the following code will set the default color of all text on the page to red: `<style> color: red; </style>` 
+  * **Local colors** can be set using the `color` property on an individual element. For example, the following code will set the color of the `h1` element to blue:`<h1 style="color: blue;"> This is a heading</h1>`
+* Font Properties
+  * Font size can be set using the font-size property. For example, the following code will set the font size of all text on the page to 24 pixels: `<style> font-size: 24px; </style>` </li>
+  * **Font family** can be set using the `font-family` property. For example, the following code will set the font family of all text on the page to Times New Roman: <style> `font-family: Times New Roman </style>`
+* CSS Box Model 
+  * The box model is a way of describing the layout of an HTML element. The box model consists of four parts: the width, height, border, and padding.
+  * The `width` and `height` properties set the size of the element's content area. 
+  * The `border` property sets the width and style of the element's border.
+  * The `padding` property sets the amount of space between the element's content area and its border. 
+  * The `margin` property sets the amount of space between the element and its surrounding elements. 
+  * The `<div>` element is a generic container element that can be used to group other elements together.
+* Mini project on Beginner additional CSS
+  * I used the knowledge I had learned to create a web page to display memes. I used the `<div>` element to group the meme images together, and I used the border property to add a `border` around the images. I also used the `font-size` and `font-family` properties to change the appearance of the text on the page.
 <hr />
 
 ### Day 6: Intermediate CSS Properties
@@ -276,4 +278,18 @@
 ### Day 16: Capstone Portfolio Project
 #### On the sixteenth day of my web development journey, I completed the Capstone Portfolio Project.
 * The project required me to use all of the knowledge I had learned about HTML and CSS to create a portfolio website for myself.
+<hr />
+
+### Day 17: Introduction to jQuery
+#### On the seventeenth day of my web development journey, I learned about jQuery, a JavaScript library that makes it easier to interact with HTML elements.
+* Introduction to jQuery
+  *jQuery uses the `<span class="math-inline">\` symbol to select HTML elements. (This is a more concise and efficient way to select elements than using the `document` object. **Selecting Elements** ) The `()` function is used to select elements by their selector.* 
+  * Once an element has been selected, it can be manipulated using jQuery methods.
+* Manipulating Styles
+  * jQuery provides a number of methods for manipulating the styles of HTML elements.
+  * For example, the following code adds the `red` class to the element with the id of my-element: `$("my-element").addClass("red");`
+* Manipulating Text
+  * jQuery provides a number of methods for manipulating the text of HTML elements.
+  * For example, the following code changes the font size of the element with the `id` of `my-element` to 16px: `$("my-element").css("font-size", "16px");`
+  
 
