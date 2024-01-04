@@ -74,63 +74,63 @@
 ### Day 6: Intermediate CSS Properties
 #### On the sixth day of my web development journey, I learned about intermediate properties in CSS. These properties are used to control the layout of HTML elements.
 #### I learned about the following properties:
-#### &middot; Cascade
-#### <ul> <li> `Padding` can be used to add space inside a text box to prevent the text from being too close to the box. The amount of space added is specified in pixels, ems, or other units. </li>
-#### <li>`Margin` can be used to create a space around the outside of a box. The amount of space added is specified in pixels, ems, or other units. </li> </ul>
-#### &middot; Combining Selectors
-#### <ul> <li> Combining selectors allows you to select multiple elements or groups of elements with a single selector. For example, the selector `h1, h2` will select all `h1` and `h2` elements. </li>
-#### <li> Adjacent selectors are used to select elements that are adjacent to each other. For example, the selector `.box > p` will select all `p` elements that are immediately inside a `.box` element. </li>
-#### <li> Child selectors are used to select elements that are children of a particular element. For example, the selector `.box li` will select all `li` elements that are children of a `.box` element. </li>
-#### <li> Descendant selectors are used to select elements that are descendants of a particular element. For example, the selector `li.done` will select all `li` elements that have the class `"done"`. </li> </ul>
-#### <li> Combining selectors can be used to create complex selectors that select specific groups of elements. </li>
-#### &middot; Positioning
-#### <ul> <li> Positioning allows you to control the position of an element on the page. There are four types of positioning:
-#### <li> `Static` is the default positioning type. Elements with static positioning are positioned according to the normal flow of the page. </li>
-#### <li> `Relative` positioning allows you to move an element relative to its original position. </li>
-#### <li> `Absolute` positioning allows you to move an element to any position on the page. </li>
-#### <li> `Fixed` positioning allows you to move an element to a fixed position on the page, regardless of the scroll position of the page. </li>
-#### &middot; Mini project on Intermediate CSS
-#### <ul> <li> I used the knowledge I had learned to create a web page to store national flags. I used the `<div>` element to group the flag images together, and I used the `position` property to position the images. I also used the `padding` and `margin` properties to control the spacing around the images. </li>
+* Cascade
+ * `Padding` can be used to add space inside a text box to prevent the text from being too close to the box. The amount of space added is specified in pixels, ems, or other units. 
+ * `Margin` can be used to create a space around the outside of a box. The amount of space added is specified in pixels, ems, or other units. 
+* Combining Selectors
+ * Combining selectors allows you to select multiple elements or groups of elements with a single selector. For example, the selector `h1, h2` will select all `h1` and `h2` elements.
+ * Adjacent selectors are used to select elements that are adjacent to each other. For example, the selector `.box > p` will select all `p` elements that are immediately inside a `.box` element.
+ * Child selectors are used to select elements that are children of a particular element. For example, the selector `.box li` will select all `li` elements that are children of a `.box` element.
+ * Descendant selectors are used to select elements that are descendants of a particular element. For example, the selector `li.done` will select all `li` elements that have the class `"done"`. 
+ * Combining selectors can be used to create complex selectors that select specific groups of elements. 
+* Positioning
+ * Positioning allows you to control the position of an element on the page. There are four types of positioning:
+ * `Static` is the default positioning type. Elements with static positioning are positioned according to the normal flow of the page. 
+ * `Relative` positioning allows you to move an element relative to its original position.
+ * `Absolute` positioning allows you to move an element to any position on the page. 
+ * `Fixed` positioning allows you to move an element to a fixed position on the page, regardless of the scroll position of the page. 
+* Mini project on Intermediate CSS
+ * I used the knowledge I had learned to create a web page to store national flags. I used the `<div>` element to group the flag images together, and I used the `position` property to position the images. I also used the `padding` and `margin` properties to control the spacing around the images. 
 <hr />
 
 ### Day 7: Advanced CSS Properties
 #### On the seventh day of my web development journey, I learned about advanced properties in CSS. These properties are used to create more complex and sophisticated layouts.
 #### I learned about the following properties:
-#### &middot; Display
-#### <ul> <li> `Inline` and `inline-block` have similar behavior in that they will cause two elements to appear on the same line. `Inline` will display as a single line of text, while `inline-block` will display as a box with its own width and height. </li>
-#### <li> `Block` will display as a box, one per line, in row order. </li>
-#### <li> `None` will disable the display of an element.</li> </ul>
-#### &middot; Float
-#### <ul> <li> `Float-right` will float an element to the right of its containing element. </li>
-#### <li> `Float-left` will float an element to the left of its containing element.. </li>
-#### <li> `'clear: both'` will clear all floats in the containing element. </li> </ul>
-#### &middot; Responsiveness
-#### <ul> <li> `Responsiveness` is a technique that allows a web page to adapt to different screen sizes and resolutions. </li>
-#### <li> `Media` queries are used to specify how a web page should be displayed at different screen sizes. </li>
-#### <li> `Flexbox` is a layout system that allows elements to be flexibly arranged in a single dimension. </li>
-#### <li> `Grid` is a layout system that allows elements to be flexibly arranged in two dimensions. </li>
-#### <li> `Bootstrap` is a CSS framework that provides a set of pre-defined styles and components that can be used to create responsive web pages. </li> </ul>
-#### &middot; Media Query
-#### <ul> <li> `@media` is used to call media queries. </li>
-#### <li> `min-width` specifies the minimum width of the screen at which the media query should be applied.ill work. </li>
-#### <li> `max-width` specifies the maximum width of the screen at which the media query should be applied. </li>
-#### <li> `Both min-width and max-width` can be used together to specify a range of screen sizes at which the media query should be applied.</li> </ul>
-#### &middot; Mini project on Advanced CSS
-#### <ul> <li> I used the knowledge I had learned to create a blog page with articles that display on both computer and phone screens. </li> </ul>
+* Display
+ * `Inline` and `inline-block` have similar behavior in that they will cause two elements to appear on the same line. `Inline` will display as a single line of text, while `inline-block` will display as a box with its own width and height. 
+ * `Block` will display as a box, one per line, in row order. 
+ * `None` will disable the display of an element.
+* Float
+ * `Float-right` will float an element to the right of its containing element. 
+ * `Float-left` will float an element to the left of its containing element.. 
+ * `'clear: both'` will clear all floats in the containing element. 
+* Responsiveness
+ * `Responsiveness` is a technique that allows a web page to adapt to different screen sizes and resolutions. 
+ * `Media` queries are used to specify how a web page should be displayed at different screen sizes. 
+ * `Flexbox` is a layout system that allows elements to be flexibly arranged in a single dimension. 
+ * `Grid` is a layout system that allows elements to be flexibly arranged in two dimensions. 
+ * `Bootstrap` is a CSS framework that provides a set of pre-defined styles and components that can be used to create responsive web pages. 
+* Media Query
+ * `@media` is used to call media queries. </li>
+ * `min-width` specifies the minimum width of the screen at which the media query should be applied.ill work. 
+ * `max-width` specifies the maximum width of the screen at which the media query should be applied. 
+ * `Both min-width and max-width` can be used together to specify a range of screen sizes at which the media query should be applied.
+* Mini project on Advanced CSS
+ * I used the knowledge I had learned to create a blog page with articles that display on both computer and phone screens. 
 <hr />
 
 ### Day 8: Flexbox in CSS
 #### On the eighth day of my web development journey, I learned about flexbox in CSS. Flexbox is a layout system that allows elements to be flexibly arranged in a single dimension. This makes it a powerful tool for creating responsive web pages.
-#### &middot; Displays Flexbox
-#### <ul> <li> Flexbox is a display mode that can be used to make elements behave like a single, flexible container. </li>
-#### <li> To use flexbox, you need to set the `display` property of the container element to `flex` or `inline-flex.` </li> </ul> 
-#### &middot; Flex Direction
-#### <ul> <li> The flex direction property specifies the direction in which flex items are laid out. </li>
-#### <li> The default flex direction is `row`, which means that flex items are laid out from left to right. </li>
-#### <li> To lay out flex items vertically, you can set the flex direction to `column`. </li> </ul> 
-#### &middot; Mini project on Flexbox
-#### <ul> <li> I used the knowledge I had learned to create a web page about pricing. </li>
-#### <li> The page uses flexbox to arrange the pricing information in a responsive way. </li> </ul>
+* Displays Flexbox
+ * Flexbox is a display mode that can be used to make elements behave like a single, flexible container.
+ * To use flexbox, you need to set the `display` property of the container element to `flex` or `inline-flex.`
+* Flex Direction
+ * The flex direction property specifies the direction in which flex items are laid out. 
+ * The default flex direction is `row`, which means that flex items are laid out from left to right. 
+ * To lay out flex items vertically, you can set the flex direction to `column`. 
+* Mini project on Flexbox
+ * I used the knowledge I had learned to create a web page about pricing. 
+ *The page uses flexbox to arrange the pricing information in a responsive way. 
 <hr />
 
 ### Day 9: Grid in CSS
@@ -291,5 +291,22 @@
 * Manipulating Text
   * jQuery provides a number of methods for manipulating the text of HTML elements.
   * For example, the following code changes the font size of the element with the `id` of `my-element` to 16px: `$("my-element").css("font-size", "16px");`
-  
+<hr />
 
+### Day 18: Additional jQuery Concepts
+#### On the eighteenth day of my web development journey, I learned about additional jQuery concepts.
+* Manipulating Attributes
+ * jQuery provides methods for manipulating the attributes of HTML elements.
+ * For example, the following code changes the href attribute of the element with the id of `my-element` to `https://www.example.com`: `$("my-element").attr("href", "https://www.example.com");`
+* Adding Event Listeners
+ *jQuery provides methods for adding event listeners to HTML elements.
+ *An event listener is a function that is called when a particular event occurs.
+ *For example, the following code adds a click event listener to the element with the id of `my-element`: `$("my-element").on("click", function() { // Do something when the element is clicked. });`
+* Adding and Removing Elements
+ * jQuery provides methods for adding and removing HTML elements.
+ * For example, the following code adds an element with the text "New element" before the element with the id of `my-element`: `$("my-element").before("<p>New element</p>");`
+ * The following code removes the element with the id of `my-element`: `$("my-element").remove();`
+* Animation
+ * jQuery provides methods for animating HTML elements.
+ * For example, the following code animates the element with the id of my-element to slide down: `$("my-element").slideDown();`
+<hr />
