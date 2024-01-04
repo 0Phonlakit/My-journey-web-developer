@@ -1,0 +1,10 @@
+.big-title {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: cursive;
+    color: purple;
+}
+
+.margin-100 {
+    margin: 100px;
+}
