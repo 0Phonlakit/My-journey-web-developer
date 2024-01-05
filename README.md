@@ -75,128 +75,128 @@
 #### On the sixth day of my web development journey, I learned about intermediate properties in CSS. These properties are used to control the layout of HTML elements.
 #### I learned about the following properties:
 * Cascade
- * `Padding` can be used to add space inside a text box to prevent the text from being too close to the box. The amount of space added is specified in pixels, ems, or other units. 
- * `Margin` can be used to create a space around the outside of a box. The amount of space added is specified in pixels, ems, or other units. 
+  * `Padding` can be used to add space inside a text box to prevent the text from being too close to the box. The amount of space added is specified in pixels, ems, or other units. 
+  * `Margin` can be used to create a space around the outside of a box. The amount of space added is specified in pixels, ems, or other units. 
 * Combining Selectors
- * Combining selectors allows you to select multiple elements or groups of elements with a single selector. For example, the selector `h1, h2` will select all `h1` and `h2` elements.
- * Adjacent selectors are used to select elements that are adjacent to each other. For example, the selector `.box > p` will select all `p` elements that are immediately inside a `.box` element.
- * Child selectors are used to select elements that are children of a particular element. For example, the selector `.box li` will select all `li` elements that are children of a `.box` element.
- * Descendant selectors are used to select elements that are descendants of a particular element. For example, the selector `li.done` will select all `li` elements that have the class `"done"`. 
- * Combining selectors can be used to create complex selectors that select specific groups of elements. 
+  * Combining selectors allows you to select multiple elements or groups of elements with a single selector. For example, the selector `h1, h2` will select all `h1` and `h2` elements.
+  * Adjacent selectors are used to select elements that are adjacent to each other. For example, the selector `.box > p` will select all `p` elements that are immediately inside a `.box` element.
+  * Child selectors are used to select elements that are children of a particular element. For example, the selector `.box li` will select all `li` elements that are children of a `.box` element.
+  * Descendant selectors are used to select elements that are descendants of a particular element. For example, the selector `li.done` will select all `li` elements that have the class `"done"`. 
+  * Combining selectors can be used to create complex selectors that select specific groups of elements. 
 * Positioning
- * Positioning allows you to control the position of an element on the page. There are four types of positioning:
- * `Static` is the default positioning type. Elements with static positioning are positioned according to the normal flow of the page. 
- * `Relative` positioning allows you to move an element relative to its original position.
- * `Absolute` positioning allows you to move an element to any position on the page. 
- * `Fixed` positioning allows you to move an element to a fixed position on the page, regardless of the scroll position of the page. 
+  * Positioning allows you to control the position of an element on the page. There are four types of positioning:
+  * `Static` is the default positioning type. Elements with static positioning are positioned according to the normal flow of the page. 
+  * `Relative` positioning allows you to move an element relative to its original position.
+  * `Absolute` positioning allows you to move an element to any position on the page. 
+  * `Fixed` positioning allows you to move an element to a fixed position on the page, regardless of the scroll position of the page. 
 * Mini project on Intermediate CSS
- * I used the knowledge I had learned to create a web page to store national flags. I used the `<div>` element to group the flag images together, and I used the `position` property to position the images. I also used the `padding` and `margin` properties to control the spacing around the images. 
+  * I used the knowledge I had learned to create a web page to store national flags. I used the `<div>` element to group the flag images together, and I used the `position` property to position the images. I also used the `padding` and `margin` properties to control the spacing around the images. 
 <hr />
 
 ### Day 7: Advanced CSS Properties
 #### On the seventh day of my web development journey, I learned about advanced properties in CSS. These properties are used to create more complex and sophisticated layouts.
 #### I learned about the following properties:
 * Display
- * `Inline` and `inline-block` have similar behavior in that they will cause two elements to appear on the same line. `Inline` will display as a single line of text, while `inline-block` will display as a box with its own width and height. 
- * `Block` will display as a box, one per line, in row order. 
- * `None` will disable the display of an element.
+  * `Inline` and `inline-block` have similar behavior in that they will cause two elements to appear on the same line. `Inline` will display as a single line of text, while `inline-block` will display as a box with its own width and height. 
+  * `Block` will display as a box, one per line, in row order. 
+  * `None` will disable the display of an element.
 * Float
- * `Float-right` will float an element to the right of its containing element. 
- * `Float-left` will float an element to the left of its containing element.. 
- * `'clear: both'` will clear all floats in the containing element. 
+  * `Float-right` will float an element to the right of its containing element. 
+  * `Float-left` will float an element to the left of its containing element.. 
+  * `'clear: both'` will clear all floats in the containing element. 
 * Responsiveness
- * `Responsiveness` is a technique that allows a web page to adapt to different screen sizes and resolutions. 
- * `Media` queries are used to specify how a web page should be displayed at different screen sizes. 
- * `Flexbox` is a layout system that allows elements to be flexibly arranged in a single dimension. 
- * `Grid` is a layout system that allows elements to be flexibly arranged in two dimensions. 
- * `Bootstrap` is a CSS framework that provides a set of pre-defined styles and components that can be used to create responsive web pages. 
+  * `Responsiveness` is a technique that allows a web page to adapt to different screen sizes and resolutions. 
+  * `Media` queries are used to specify how a web page should be displayed at different screen sizes. 
+  * `Flexbox` is a layout system that allows elements to be flexibly arranged in a single dimension. 
+  * `Grid` is a layout system that allows elements to be flexibly arranged in two dimensions. 
+  * `Bootstrap` is a CSS framework that provides a set of pre-defined styles and components that can be used to create responsive web pages. 
 * Media Query
- * `@media` is used to call media queries. </li>
- * `min-width` specifies the minimum width of the screen at which the media query should be applied.ill work. 
- * `max-width` specifies the maximum width of the screen at which the media query should be applied. 
- * `Both min-width and max-width` can be used together to specify a range of screen sizes at which the media query should be applied.
+  * `@media` is used to call media queries. </li>
+  * `min-width` specifies the minimum width of the screen at which the media query should be applied.ill work. 
+  * `max-width` specifies the maximum width of the screen at which the media query should be applied. 
+  * `Both min-width and max-width` can be used together to specify a range of screen sizes at which the media query should be applied.
 * Mini project on Advanced CSS
- * I used the knowledge I had learned to create a blog page with articles that display on both computer and phone screens. 
+  * I used the knowledge I had learned to create a blog page with articles that display on both computer and phone screens. 
 <hr />
 
 ### Day 8: Flexbox in CSS
 #### On the eighth day of my web development journey, I learned about flexbox in CSS. Flexbox is a layout system that allows elements to be flexibly arranged in a single dimension. This makes it a powerful tool for creating responsive web pages.
 * Displays Flexbox
- * Flexbox is a display mode that can be used to make elements behave like a single, flexible container.
- * To use flexbox, you need to set the `display` property of the container element to `flex` or `inline-flex.`
+  * Flexbox is a display mode that can be used to make elements behave like a single, flexible container.
+  * To use flexbox, you need to set the `display` property of the container element to `flex` or `inline-flex.`
 * Flex Direction
- * The flex direction property specifies the direction in which flex items are laid out. 
- * The default flex direction is `row`, which means that flex items are laid out from left to right. 
- * To lay out flex items vertically, you can set the flex direction to `column`. 
+  * The flex direction property specifies the direction in which flex items are laid out. 
+  * The default flex direction is `row`, which means that flex items are laid out from left to right. 
+  * To lay out flex items vertically, you can set the flex direction to `column`. 
 * Mini project on Flexbox
- * I used the knowledge I had learned to create a web page about pricing. 
- *The page uses flexbox to arrange the pricing information in a responsive way. 
+  * I used the knowledge I had learned to create a web page about pricing. 
+  *The page uses flexbox to arrange the pricing information in a responsive way. 
 <hr />
 
 ### Day 9: Grid in CSS
 #### On the ninth day of my web development journey, I learned about grid in CSS. Grid is a layout system that allows elements to be flexibly arranged in two dimensions. This makes it a powerful tool for creating complex and sophisticated layouts.
-#### &middot; Display Grid
-#### <ul> <li> Grid is a display mode that can be used to make elements behave like a single, flexible container. </li>
-#### <li> To use grid, you need to set the `display` property of the container element to `grid`. </li> </ul>
-#### &middot; Grid Sizing
-#### <ul> <li> The grid sizing properties specify the size of the grid columns and rows. </li>
-#### <li> The `grid-template-columns` property specifies the width of the grid columns. </li>
-#### <li> The `grid-template-rows` property specifies the height of the grid rows. </li>
-#### <li> You can also use the `grid-column-gap` and `grid-row-gap` properties to specify the gap between columns and rows. </li> </ul>
-#### &middot; Grid Placement
-#### <ul> <li> The grid placement properties specify the position of elements within the grid. </li>
-#### <li> The `grid-column` property specifies the column in which an element is placed. </li>
-#### <li> The `grid-row` property specifies the row in which an element is placed. </li>
-#### <li> You can also use the `grid-area` property to specify the area in which an element is placed. </li> </ul>
-#### &middot; Mini project on Grid
-#### <ul> <li> I used the knowledge I had learned to create a web page about the work of Piet Mondrian. </li>
-#### <li> The page uses grid to arrange the paintings in a visually appealing way. </li> </ul>
+* Display Grid
+  * Grid is a display mode that can be used to make elements behave like a single, flexible container.
+  * To use grid, you need to set the `display` property of the container element to `grid`.
+* Grid Sizing
+  * The grid sizing properties specify the size of the grid columns and rows. 
+  * The `grid-template-columns` property specifies the width of the grid columns. 
+  * The `grid-template-rows` property specifies the height of the grid rows. 
+  * You can also use the `grid-column-gap` and `grid-row-gap` properties to specify the gap between columns and rows.
+* Grid Placement
+  * The grid placement properties specify the position of elements within the grid.
+  * The `grid-column` property specifies the column in which an element is placed.
+  * The `grid-row` property specifies the row in which an element is placed.
+  * You can also use the `grid-area` property to specify the area in which an element is placed.
+* Mini project on Grid
+  * I used the knowledge I had learned to create a web page about the work of Piet Mondrian.
+  * The page uses grid to arrange the paintings in a visually appealing way.
 <hr />
 
 ### Day 10: Bootstrap in CSS
 #### On the tenth day of my web development journey, I learned about Bootstrap in CSS. Bootstrap is a CSS framework that provides a set of pre-defined styles and components that can be used to create responsive web pages.
-####  &middot; Bootstrap Intro
-#### <ul> <li> Bootstrap is a powerful tool that can help you to create beautiful and responsive web pages quickly and easily. </li>
-#### <li> Bootstrap containers are a great way to create a responsive layout. You can use the `container-sm` class to create a container that will display correctly on small screens. </li>
-#### <li> Bootstrap can be used with grid and flexbox to create even more complex layouts. </li> </ul>
-#### &middot; Bootstrap Components
-#### <ul> <li> Bootstrap components are a great way to add functionality and style to your web pages. </li>
-#### <li> Some of the most common Bootstrap components include nav bars, features, and buttons. </li>
-#### <li> Bootstrap provides a variety of templates that you can use to get started with creating a Bootstrap web page. </li> </ul>
-#### &middot; Mini project on Bootstrap
-#### <ul> <li> I used the knowledge I had learned to create a web page to promote the Tin Dog app. </li>
-#### <li> The page uses Bootstrap components to create a visually appealing and responsive layout. </li> </ul>
+* Bootstrap Intro
+  * Bootstrap is a powerful tool that can help you to create beautiful and responsive web pages quickly and easily.
+  * Bootstrap containers are a great way to create a responsive layout. You can use the `container-sm` class to create a container that will display correctly on small screens.
+  * Bootstrap can be used with grid and flexbox to create even more complex layouts.
+* Bootstrap Components
+  * Bootstrap components are a great way to add functionality and style to your web pages.
+  * Some of the most common Bootstrap components include nav bars, features, and buttons.
+  * Bootstrap provides a variety of templates that you can use to get started with creating a Bootstrap web page.
+* Mini project on Bootstrap
+  * I used the knowledge I had learned to create a web page to promote the Tin Dog app.
+  * The page uses Bootstrap components to create a visually appealing and responsive layout.
 <hr />
 
 ### Day 11: Basic JavaScript Concepts
 #### On the eleventh day of my web development journey, I learned about the basic concepts of JavaScript. JavaScript is a programming language that is used to add interactivity to web pages.
-#### <ul> <li> Variables 
-##### <li> Variables are used to store data in JavaScript. </li>
-##### <li> To declare a variable in JavaScript, you use the `var` keyword. </li>
-##### <li> For example, the following code declares two variables, `a` and `b`: `var a = "3";` `var b = "8";` </li>
-##### <li>You can assign the value of one variable to another variable using the `=` operator. </li>
-##### <li> For example, the following code assigns the value of `a` to `b`: `var a = "3";` `var b = a;` </li> </li> </ul>
-#### <ul> <li> Strings
-##### <li> Strings are used to represent text in JavaScript. </li>
-##### <li> You can create a string by enclosing text in double quotes (`"`). </li>
-##### <li> For example, the following code creates a string called `name`: `var name = "John Doe";` </li>
-##### <li> You can use the .slice() method to extract a substring from a string. </li>
-##### <li> For example, the following code extracts the first three characters from the string name: `var name = "John Doe";` `var firstThreeCharacters = name.slice(0, 3);` </li>
-##### <li> You can use the .length property to get the length of a string. </li>
-##### <li> For example, the following code gets the length of the string name: `var name = "John Doe";` `var lengthOfName = name.length;` </li> </li> </ul>
-#### <ul> <li> Basic Arithmetic
-##### <li> You can use mathematical operators to perform arithmetic operations in JavaScript. </li>
-##### <li> For example, the following code adds two numbers together: `var a = 1;` `var b = 2;` `var sum = a + b;` </li>
-##### <li> You can also use mathematical operators to perform subtraction, multiplication, and division. </li> </li> </ul>
-#### <ul> <li> Functions
-##### <li> Functions are a way to group code together so that it can be reused. </li>
-##### <li>To create a function in JavaScript, you use the `function` keyword. </li>
-##### <li>For example, the following code creates a function called `myFunction()`: `function myFunction() { // Code goes here }` </li>
-##### <li>You can call a function by using its name. </li>
-##### <li>For example, the following code calls the function `myFunction()`: `myFunction();` </li>
-##### <li> Challenges: The following challenges were completed to practice the concepts learned:
-##### <li> Challenge 1: Write a function that calculates the number of days a person will live based on the average human lifespan of 90 years. </li>
-##### <li> Challenge 2: Write a function that calculates the body mass index (BMI) of a person. </li> </li> </li> </ul>
+* Variables 
+  * Variables are used to store data in JavaScript. 
+  * To declare a variable in JavaScript, you use the `var` keyword. 
+  * For example, the following code declares two variables, `a` and `b`: `var a = "3";` `var b = "8";`
+  * You can assign the value of one variable to another variable using the `=` operator. 
+  * For example, the following code assigns the value of `a` to `b`: `var a = "3";` `var b = a;` 
+* Strings
+  * Strings are used to represent text in JavaScript. 
+  * You can create a string by enclosing text in double quotes (`"`). 
+  * For example, the following code creates a string called `name`: `var name = "John Doe";` 
+  * You can use the .slice() method to extract a substring from a string. 
+  * For example, the following code extracts the first three characters from the string name: `var name = "John Doe";` `var firstThreeCharacters = name.slice(0, 3);` 
+  * You can use the .length property to get the length of a string. 
+  * For example, the following code gets the length of the string name: `var name = "John Doe";` `var lengthOfName = name.length;`
+* Basic Arithmetic
+  * You can use mathematical operators to perform arithmetic operations in JavaScript. 
+  * For example, the following code adds two numbers together: `var a = 1;` `var b = 2;` `var sum = a + b;` 
+  * You can also use mathematical operators to perform subtraction, multiplication, and division. 
+* Functions
+  * Functions are a way to group code together so that it can be reused. 
+  * To create a function in JavaScript, you use the `function` keyword.
+  * For example, the following code creates a function called `myFunction()`: `function myFunction() { // Code goes here }` 
+  * You can call a function by using its name. 
+  * For example, the following code calls the function `myFunction()`: `myFunction();` 
+* Challenges: The following challenges were completed to practice the concepts learned:
+  * Challenge 1: Write a function that calculates the number of days a person will live based on the average human lifespan of 90 years.
+  * Challenge 2: Write a function that calculates the body mass index (BMI) of a person. 
 <hr />
 
 ### Day 12: Intermediate JavaScript Concepts
@@ -283,7 +283,7 @@
 ### Day 17: Introduction to jQuery
 #### On the seventeenth day of my web development journey, I learned about jQuery, a JavaScript library that makes it easier to interact with HTML elements.
 * Introduction to jQuery
-  *jQuery uses the `<span class="math-inline">\` symbol to select HTML elements. (This is a more concise and efficient way to select elements than using the `document` object. **Selecting Elements** ) The `()` function is used to select elements by their selector.* 
+  * jQuery uses the `<span class="math-inline">\` symbol to select HTML elements. (This is a more concise and efficient way to select elements than using the `document` object. **Selecting Elements** ) The `()` function is used to select elements by their selector.* 
   * Once an element has been selected, it can be manipulated using jQuery methods.
 * Manipulating Styles
   * jQuery provides a number of methods for manipulating the styles of HTML elements.
@@ -296,17 +296,33 @@
 ### Day 18: Additional jQuery Concepts
 #### On the eighteenth day of my web development journey, I learned about additional jQuery concepts.
 * Manipulating Attributes
- * jQuery provides methods for manipulating the attributes of HTML elements.
- * For example, the following code changes the href attribute of the element with the id of `my-element` to `https://www.example.com`: `$("my-element").attr("href", "https://www.example.com");`
+  * jQuery provides methods for manipulating the attributes of HTML elements.
+  * For example, the following code changes the href attribute of the element with the id of `my-element` to `https://www.example.com`: `$("my-element").attr("href", "https://www.example.com");`
 * Adding Event Listeners
- *jQuery provides methods for adding event listeners to HTML elements.
- *An event listener is a function that is called when a particular event occurs.
- *For example, the following code adds a click event listener to the element with the id of `my-element`: `$("my-element").on("click", function() { // Do something when the element is clicked. });`
+  * jQuery provides methods for adding event listeners to HTML elements.
+  * An event listener is a function that is called when a particular event occurs.
+  * For example, the following code adds a click event listener to the element with the id of `my-element`: `$("my-element").on("click", function() { // Do something when the element is clicked. });`
 * Adding and Removing Elements
- * jQuery provides methods for adding and removing HTML elements.
- * For example, the following code adds an element with the text "New element" before the element with the id of `my-element`: `$("my-element").before("<p>New element</p>");`
- * The following code removes the element with the id of `my-element`: `$("my-element").remove();`
+  * jQuery provides methods for adding and removing HTML elements.
+  * For example, the following code adds an element with the text "New element" before the element with the id of `my-element`: `$("my-element").before("<p>New element</p>");`
+  * The following code removes the element with the id of `my-element`: `$("my-element").remove();`
 * Animation
- * jQuery provides methods for animating HTML elements.
- * For example, the following code animates the element with the id of my-element to slide down: `$("my-element").slideDown();`
+  * jQuery provides methods for animating HTML elements.
+  * For example, the following code animates the element with the id of my-element to slide down: `$("my-element").slideDown();`
+<hr />
+
+### Day 19: Simon Games Project
+#### On the nineteenth day of my web development journey, I completed the Simon Games project.
+The project required me to use all of the knowledge I had learned about jQuery to create a Simon game.
+The game works as follows:
+1. The game starts by playing a sequence of colors.
+2. The player must then repeat the sequence by clicking on the corresponding buttons.
+3. If the player clicks on the correct buttons, the game continues to the next sequence.
+4. If the player clicks on the wrong buttons, the game ends.
+The game is played on a grid of four buttons, each with a different color. The colors are red, green, blue, and yellow.
+The game code uses the following jQuery concepts:
+ * Selecting elements: The `$(selector)` function is used to select elements by their selector.
+ * Adding event listeners: The `on()` method is used to add event listeners to elements.
+ * Manipulating styles: The `css()` method is used to manipulate the styles of elements.
+I am pleased with the results of the project. I was able to create a functional and engaging game using the knowledge I had learned. I am looking forward to continuing to use my web development skills to create more projects in the future.
 <hr />
