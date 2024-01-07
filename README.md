@@ -201,55 +201,55 @@
 
 ### Day 12: Intermediate JavaScript Concepts
 #### On the twelfth day of my web development journey, I learned about the intermediate concepts of JavaScript. JavaScript is a programming language that is used to add interactivity to web pages.
-#### <ul> <li> Random
-##### <li> Random is a function that can be used to generate a random number. </li>
-##### <li> The `Math.random()` function returns a number between 0 and 1. [Image of The `Math.random()` function] </li>
-##### <li> You can use the `Math.random()` function to generate random numbers for a variety of purposes, such as generating a random number for a game or creating a random password. </li> </li> </ul>
-#### <ul> <li> If-Else
-##### <li> If-else statements are used to execute code based on a condition. </li>
-##### <li> The syntax for an if-else statement is as follows: `if (condition) { // Code to be executed if the condition is true}  else { // Code to be executed if the condition is false}` </li> </li> </ul>
-#### <ul> <li> Arrays
-##### <li> Arrays are used to store a collection of data. </li>
-##### <li> The syntax for creating an array is as follows: `var array = [1, 2, 3, 4, 5];` </li>
-##### <li> You can access the elements of an array by using their index. The index starts at 0. </li> </li> </ul>
-####  <ul> <li> While Loop
-##### <li> While loops are used to execute code repeatedly until a condition is met. </li>
-##### <li> The syntax for a while loop is as follows: `while (condition) { // Code to be executed repeatedly}` </li> </li> </ul>
-#### <ul> <li> For Loop
-##### <li> For loops are used to execute code repeatedly for a specific number of times. </li>
-##### <li> The syntax for a for loop is as follows: `for (var i = 0; i < 10; i++) {// Code to be executed repeatedly}` </li> </li> </ul>
-#### <ul> <li> Challenges : The following challenges were completed to practice the concepts learned:
-##### <li> Challenge 1: Write a program that uses the `Math.random()` function to generate a random number between 1 and 100. </li>
-##### <li> Challenge 2: Write a program that uses an if-else statement to determine if a number is even or odd. </li>
-##### <li> Challenge 3: Write a program that uses an array to store the names of your friends. Then, use a while loop to print the names of your friends one at a time. </li>
-##### <li> Challenge 4: Write a program that uses a while loop to print the numbers from 1 to 100. </li>
-##### <li> Challenge 5: Write a program that uses a for loop to calculate the Fibonacci sequence. </li> </li> </ul>
+* Random
+  * Random is a function that can be used to generate a random number. 
+  * The `Math.random()` function returns a number between 0 and 1. [Image of The `Math.random()` function] 
+  * You can use the `Math.random()` function to generate random numbers for a variety of purposes, such as generating a random number for a game or creating a random password.
+* If-Else
+  * If-else statements are used to execute code based on a condition. 
+  * The syntax for an if-else statement is as follows: `if (condition) { // Code to be executed if the condition is true}  else { // Code to be executed if the condition is false}` 
+* Arrays
+  * Arrays are used to store a collection of data. 
+  * The syntax for creating an array is as follows: `var array = [1, 2, 3, 4, 5];` 
+  * You can access the elements of an array by using their index. The index starts at 0. 
+* While Loop
+  * While loops are used to execute code repeatedly until a condition is met. 
+  * The syntax for a while loop is as follows: `while (condition) { // Code to be executed repeatedly}` 
+* For Loop
+  * For loops are used to execute code repeatedly for a specific number of times. 
+  * The syntax for a for loop is as follows: `for (var i = 0; i < 10; i++) {// Code to be executed repeatedly}` 
+* Challenges : The following challenges were completed to practice the concepts learned:
+  * Challenge 1: Write a program that uses the `Math.random()` function to generate a random number between 1 and 100.
+  * Challenge 2: Write a program that uses an if-else statement to determine if a number is even or odd.
+  * Challenge 3: Write a program that uses an array to store the names of your friends. Then, use a while loop to print the names of your friends one at a time. 
+  * Challenge 4: Write a program that uses a while loop to print the numbers from 1 to 100. 
+  * Challenge 5: Write a program that uses a for loop to calculate the Fibonacci sequence. 
 <hr />
 
 ### Day 13: Document Object Model (DOM) in JavaScript
 #### On the thirteenth day of my web development journey, I learned about the Document Object Model (DOM) in JavaScript. The DOM is a programming interface that allows JavaScript to interact with HTML and CSS elements.
-#### <ul> <li> Adding JavaScript
-##### <li> JavaScript can be added to HTML using the `<script>` tag. The `<script>` tag should be placed at the bottom of the `<body>` tag. </li>
-##### <li> JavaScript code is executed in a hierarchical order. If the order of execution is incorrect, errors may occur. </li> </li> </ul>
-#### <ul> <li> Document Object Model (DOM)
-##### <li> The DOM can be used to access and manipulate HTML and CSS elements. </li>
-##### <li> To access an HTML element, you can use the `document.querySelector()` method. </li>
-##### <li> To change the content of an HTML element, you can use the `.innerHTML` property. </li> </li> </ul>
-#### <ul> <li> Selecting HTML elements
-##### <li> To select all HTML elements with a particular class or ID, you can use the `document.querySelectorAll()` method. </li>
-##### <li> To select a single HTML element, you can use the `document.querySelector()` method. </li> </li> </ul>
-####  <ul> <li> Manipulating and changing styles
-##### <li> change the style of an HTML element without changing the CSS, you can use the `.style` property. </li>
-##### <li> For example, to change the font size of an element, you would use the following code: `document.querySelector("element").style.fontSize = "16px";` </li> </li> </ul>
-#### <ul> <li> The Separation of Concerns
-##### <li> To avoid having to modify HTML code to add or remove CSS classes, you can use the `.classList` property. </li>
-##### <li> For example, to add a CSS class to an element, you would use the following code: `document.querySelector("element").classList.add("my-class");` </li> </li> </ul>
-#### <ul> <li> Text manipulating and text content property
-##### <li> To make text in HTML italic, you can use the `<em>` tag. </li>
-##### <li> For example, to make the text "This is italic" italic, you would use the following code: `<p>This is italic <em>This is italic</em></p>` </li> </li> </ul>
-#### <ul> <li> Manipulating HTML element attributes
-##### <li> To change the href attribute of an HTML anchor element, you can use the `.setAttribute()` method. </li>
-##### <li> For example, to change the href attribute of an element with the ID "my-link" to "https://www.example.com", you would use the following code: `document.querySelector("#my-link").setAttribute("href", "https://www.example.com");` </li> </li> </ul>
+* Adding JavaScript
+  * JavaScript can be added to HTML using the `<script>` tag. The `<script>` tag should be placed at the bottom of the `<body>` tag.
+  * JavaScript code is executed in a hierarchical order. If the order of execution is incorrect, errors may occur. 
+* Document Object Model (DOM)
+  * The DOM can be used to access and manipulate HTML and CSS elements. 
+  * To access an HTML element, you can use the `document.querySelector()` method.
+  * To change the content of an HTML element, you can use the `.innerHTML` property.
+* Selecting HTML elements
+  * To select all HTML elements with a particular class or ID, you can use the `document.querySelectorAll()` method.
+  * To select a single HTML element, you can use the `document.querySelector()` method. 
+* Manipulating and changing styles
+  * change the style of an HTML element without changing the CSS, you can use the `.style` property. 
+  * For example, to change the font size of an element, you would use the following code: `document.querySelector("element").style.fontSize = "16px";` 
+* The Separation of Concerns
+  * To avoid having to modify HTML code to add or remove CSS classes, you can use the `.classList` property.
+  * For example, to add a CSS class to an element, you would use the following code: `document.querySelector("element").classList.add("my-class");`
+* Text manipulating and text content property
+  * To make text in HTML italic, you can use the `<em>` tag.
+  * For example, to make the text "This is italic" italic, you would use the following code: `<p>This is italic <em>This is italic</em></p>`
+* Manipulating HTML element attributes
+  * To change the href attribute of an HTML anchor element, you can use the `.setAttribute()` method.
+  * For example, to change the href attribute of an element with the ID "my-link" to "https://www.example.com", you would use the following code: `document.querySelector("#my-link").setAttribute("href", "https://www.example.com");` 
 <hr />
 
 ### Day 14: Dice Game Project
@@ -325,4 +325,24 @@ The game code uses the following jQuery concepts:
  * Adding event listeners: The `on()` method is used to add event listeners to elements.
  * Manipulating styles: The `css()` method is used to manipulate the styles of elements.
 I am pleased with the results of the project. I was able to create a functional and engaging game using the knowledge I had learned. I am looking forward to continuing to use my web development skills to create more projects in the future.
+<hr />
+
+### Day 20: Additional Node.js Concepts
+#### On the twentieth day of my web development journey, I learned about additional Node.js concepts.
+* Using Node
+   * Node.js is a runtime environment that allows JavaScript to be executed outside of a web browser.
+* Native Modules
+   * Node.js provides native modules that allow JavaScript to interact with the operating system.
+   * The `fs` module allows JavaScript to read and write files.
+   * The `writeFile()` method is used to write a file.
+   * The `readFile()` method is used to read a file.
+* NPM
+   * Node Package Manager (npm) is a package manager that allows JavaScript developers to install and manage third-party modules.
+   * The npm i (package) command is used to install a module.
+* QR Code Project
+   * I used the knowledge I learned about Node.js to create a QR code generator program.
+   * The program generates a QR code with the specified text.
+   * The program uses the fs module to write the QR code to a file.
+   * The program uses the qrcode module to generate the QR code.
+I learned a lot about Node.js in this lesson. I learned how to use Node.js to read and write files, install modules, and generate QR codes. I am excited to use these new skills in my future web development projects.
 <hr />
