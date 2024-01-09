@@ -254,25 +254,25 @@
 
 ### Day 14: Dice Game Project
 #### On the fourteenth day of my web development journey, I used the knowledge I had learned from the basic, intermediate, and DOM JavaScript topics to create a dice game project.
-#### The game is a simple dice game that uses the Math.random() function to generate random numbers for the dice rolls. The player rolls the dice by refreshing the HTML file. The player with the higher number wins the round. If the dice rolls are tied, the game is a draw.
-##### <ul> <li> The project uses the following JavaScript concepts: 
-##### <li> Basic JavaScript concepts: variables, strings, arithmetic operators, functions, and if-else statements. </li>
-##### <li> Intermediate JavaScript concepts: arrays and loops. </li>
-##### <li> DOM concepts: accessing HTML elements, manipulating HTML elements, and changing HTML element styles. </li> </li> </ul>
+* The game is a simple dice game that uses the `Math.random()` function to generate random numbers for the dice rolls. The player rolls the dice by refreshing the HTML file. The player with the higher number wins the round. If the dice rolls are tied, the game is a draw.
+* The project uses the following JavaScript concepts: 
+  * Basic JavaScript concepts: variables, strings, arithmetic operators, functions, and if-else statements. 
+  * Intermediate JavaScript concepts: arrays and loops. 
+  * DOM concepts: accessing HTML elements, manipulating HTML elements, and changing HTML element styles. 
 <hr />
 
 ### Day 15: Advanced Document Object Model (DOM) in JavaScript
 #### On the fifteenth day of my web development journey, I learned about the advanced Document Object Model (DOM) in JavaScript.
-#### <ul> <li> Passing Functions
-##### <li> Functions can be passed as arguments to other functions. </li>
-##### <li> For example, the following code defines two functions, `add()` and `subtract()`, and a third function, `calculator()`, that uses `add()` and `subtract()`. </li> </li> </ul>
-#### <ul> <li> Objects in JavaScript
-##### <li> Objects can be used to store data in a single variable. </li>
-##### <li> For example, the following code defines an object called `houseKeeper1` that stores three properties: `yearsOfExperience`, `name`, and `cleaningRepertoire`. </li>
-##### <li> Objects can also be created using functions. </li>
-##### <li> Objects can be cleared using the .clear() method. </li> </li> </ul>
-#### <ul> <li> Mini Project on Advanced DOM
-##### <li> I used the knowledge I had learned about advanced DOM to create a web page that plays drum sounds when a key is pressed on the keyboard. </li> </li> </ul>
+* Passing Functions
+  * Functions can be passed as arguments to other functions.
+  * For example, the following code defines two functions, `add()` and `subtract()`, and a third function, `calculator()`, that uses `add()` and `subtract()`. 
+* Objects in JavaScript
+  * Objects can be used to store data in a single variable.
+  * For example, the following code defines an object called `houseKeeper1` that stores three properties: `yearsOfExperience`, `name`, and `cleaningRepertoire`. 
+  * Objects can also be created using functions. 
+  * Objects can be cleared using the .clear() method. 
+* Mini Project on Advanced DOM
+  * I used the knowledge I had learned about advanced DOM to create a web page that plays drum sounds when a key is pressed on the keyboard. 
 <hr />
 
 ### Day 16: Capstone Portfolio Project
@@ -346,3 +346,42 @@ I am pleased with the results of the project. I was able to create a functional 
    * The program uses the qrcode module to generate the QR code.
 I learned a lot about Node.js in this lesson. I learned how to use Node.js to read and write files, install modules, and generate QR codes. I am excited to use these new skills in my future web development projects.
 <hr />
+
+### Day 21: Additional Express.js Concepts
+#### On the twenty-first day of my web development journey, I learned about additional Express.js concepts.
+* Express Server
+    * Express is a web application framework for Node.js.
+    * It provides a number of features that make it easy to create web applications, including routing, middleware, and template engines.
+    * To create an Express server, you must first require the Express module. `const express = require("express");`
+    * Next, you must create a new Express application. `const app = express();`
+    * Finally, you must listen for HTTP requests on a specified port. `app.listen(3000);`
+* HTTP Requests
+    * HTTP requests are the way that data is sent between web browsers and web servers.
+    * There are five types of HTTP requests:
+       * `GET`: Used to retrieve data from a server.
+       * `POST`: Used to send data to a server.
+       * `PUT`: Used to update data on a server.
+       * `PATCH`: Used to update a specific part of data on a server.
+       * `DELETE`: Used to delete data from a server.
+* Postman
+    * Postman is a popular API testing tool that allows you to send and receive HTTP requests.
+    * To use Postman, you must first create a new request.
+    * Next, you must specify the type of request you want to send.
+    * Finally, you must specify the URL of the server you want to send the request to.
+* Middleware
+    * Middleware is a function that is executed before or after an HTTP request is processed.
+    * Middleware can be used to perform a variety of tasks, such as authentication, logging, and error handling.
+    * To use middleware in Express, you must first create a middleware function.
+    * Next, you must add the middleware function to your Express application.
+* Custom Middleware
+    * Custom middleware can be used to perform tasks that are not supported by the built-in middleware that is provided by Express.
+    * To create custom middleware, you must first create a middleware function.
+    * Next, you must add the middleware function to your Express application.
+* Secrets Project
+    * In this project, I created a program that uses middleware to check for a secret code.
+    * If the user enters the correct code, they are allowed to access the program.
+    * If the user enters the incorrect code, they are not allowed to access the program.
+I learned a lot about Express.js in this lesson. I learned how to create an Express server, send and receive HTTP requests, and use middleware. I am excited to use these new skills in my future web development projects.
+<hr />
+
+
