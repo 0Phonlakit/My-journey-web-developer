@@ -384,4 +384,30 @@ I learned a lot about Node.js in this lesson. I learned how to use Node.js to re
 I learned a lot about Express.js in this lesson. I learned how to create an Express server, send and receive HTTP requests, and use middleware. I am excited to use these new skills in my future web development projects.
 <hr />
 
+### Day 22: Additional Embedded JavaScript Templates (EJS) Concepts
+#### On the twenty-second day of my web development journey, I learned about additional Embedded JavaScript Templates (EJS) concepts.
+* EJs
+   * EJS is a template engine that allows you to embed JavaScript code in your HTML templates.
+   * EJS templates are similar to HTML templates, but they offer some additional features that make it easier to write JavaScript code.
+* EJs Tags
+   * EJS tags are used to control how the template is rendered.
+   * The following are some of the most common EJS tags:
+      * `<%= %>` - Used to output text or JavaScript expressions.
+      * `<% %>` - Used to define conditional logic.
+      * `<%- %>` - Used to output JavaScript variables.
+      * `<%- include() %>` - Used to include another EJS file.
+* Passing Data
+   * You can pass data from JavaScript to EJS templates using the `data` object.
+   * You can also use the `include()` tag to pass data to another EJS template.
+* EJs Partials
+   * EJS partials are reusable chunks of code that can be included in other templates.
+   * Partials are a great way to reduce code duplication and improve readability.
+   * To create an EJS partial, simply create a file with the `.ejs` extension.
+   * To include a partial, use the `include()` tag.
+* Band Generator Project
+   * In this project, I used EJS to create a program that generates random band names.
+   * The program prompts the user to enter a genre of music.
+   *The program then generates a random band name from a list of names associated with the specified genre.
+I learned a lot about EJS in this lesson. I learned how to use EJS tags, pass data from JavaScript to EJS templates, and use EJS partials. I am excited to use these new skills in my future web development projects
+<hr />
 
