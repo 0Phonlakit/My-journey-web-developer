@@ -411,3 +411,11 @@ I learned a lot about Express.js in this lesson. I learned how to create an Expr
 I learned a lot about EJS in this lesson. I learned how to use EJS tags, pass data from JavaScript to EJS templates, and use EJS partials. I am excited to use these new skills in my future web development projects
 <hr />
 
+### Day 23: Capstone Project - Blog Web
+#### On the twenty-second day of my web development journey, I completed my capstone project, a blog web application using EJS and JavaScript.
+* The project was a simple blog application that allowed users to create and manage blog posts.
+* The EJS templates were used to render the HTML pages of the application.
+* The JavaScript code was used to handle the logic of the application, such as creating and editing blog posts.
+* The project documentation can be found at this link : **https://github.com/0Phonlakit/Blog-App**
+<hr />
+
