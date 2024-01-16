@@ -419,3 +419,25 @@ I learned a lot about EJS in this lesson. I learned how to use EJS tags, pass da
 * The project documentation can be found at this link : **https://github.com/0Phonlakit/Blog-App**
 <hr />
 
+### Day 24: Application Programming Interfaces (APIs)
+#### On the twenty-fourth day of my web development journey, I learned about Application Programming Interfaces (APIs).
+* JSON
+  * JSON is a lightweight data-interchange format.
+  * It is commonly used to transmit data between web applications and servers.
+  * JSON data is stored in key-value pairs.
+* Axios
+  * Axios is a JavaScript library that makes it easy to send HTTP requests.
+  * It can be used to fetch data from APIs, make POST requests, and more.
+  * Axios supports a variety of features, including request cancellation, error handling, and request interception.
+* API Authentication
+  * API authentication is a way to secure APIs from unauthorized access.
+  * There are a variety of authentication methods that can be used with APIs, including username and password authentication, API keys, and bearer tokens.
+* REST APIs
+  * REST stands for Representational State Transfer.
+  * It is a set of architectural principles for designing APIs.
+  * REST APIs use HTTP methods to represent different actions, such as GET for retrieving data, POST for creating data, PUT for updating data, and DELETE for deleting data.
+* Secrets Project
+  * In this project, I used my knowledge of APIs to create a web application that fetches secret data from an API.
+  * The data is then displayed on the web page.
+  * If the page is refreshed, the secret data is replaced with a new random value.
+<hr />
