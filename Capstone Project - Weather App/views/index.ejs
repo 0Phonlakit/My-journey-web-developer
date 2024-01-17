@@ -1,0 +1,42 @@
+<%- include("partials/header.ejs") %>
+        <div class="container <%= notFound === null ? 'initial-state' : (notFound ? 'not-found' : 'found') %>">
+            <form class="search-box" action="/" method="POST">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" placeholder="Enter your location" name="cityName">
+                <button class="fa-solid fa-magnifying-glass" type="submit"></button>
+            </form>
+    
+            <% if (notFound === null) { %>
+                
+            <% } else if (notFound) { %>
+                <div class="not-found fadeIn ">
+                    <img src="./img/404.jpg" alt="404-page">
+                    <p> Oops! Invalid location :/ </p>
+                </div>
+            <% } else { %>
+                <div class="weather-box fadeIn">
+                    <img src=" <%= image %> " alt=" <%= image %>">
+                    <p class="temperature"> <%= temperature %>° C</p>
+                    <p class="description"> <%= description %> </p>
+                </div>
+    
+                <div class="weather-details fadeIn">
+    
+                    <div class="humidity">
+                        <i class="fa-solid fa-water"></i>
+                        <div class="text">
+                            <span> <%= humidity %>% </span>
+                            <p> Huminity </p>
+                        </div>
+                    </div>
+    
+                    <div class="wind">
+                        <i class="fa-solid fa-wind"></i>
+                        <div class="text">
+                            <span> <%= wind %>Km/h</span>
+                            <p> Wind Speed </p>
+                        </div>
+                    </div>
+                </div>
+            <% } %>
+<%- include("partials/footer.ejs") %>
