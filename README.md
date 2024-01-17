@@ -441,3 +441,15 @@ I learned a lot about EJS in this lesson. I learned how to use EJS tags, pass da
   * The data is then displayed on the web page.
   * If the page is refreshed, the secret data is replaced with a new random value.
 <hr />
+
+### Day 25: Capstone Project - Weather App
+#### On the twenty-fifth day of my web development journey, I completed my capstone project, a weather app using JavaScript.
+* The project was a simple weather application that allowed users to enter the name of a country to see the current weather conditions.
+* The application was built using Axios, JSON, and EJS.
+* Axios was used to send HTTP requests to the OpenWeatherMap API.
+* EJS was used to render the HTML pages of the application.
+* The project was a great way to apply the skills I had learned over the course of my web development journey.
+* The project documentation can be found at this link : **https://github.com/0Phonlakit/Weather-App**
+<hr />
+
+
