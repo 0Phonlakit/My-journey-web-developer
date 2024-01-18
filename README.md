@@ -445,11 +445,37 @@ I learned a lot about EJS in this lesson. I learned how to use EJS tags, pass da
 ### Day 25: Capstone Project - Weather App
 #### On the twenty-fifth day of my web development journey, I completed my capstone project, a weather app using JavaScript.
 * The project was a simple weather application that allowed users to enter the name of a country to see the current weather conditions.
-* The application was built using Axios, JSON, and EJS.
-* Axios was used to send HTTP requests to the OpenWeatherMap API.
-* EJS was used to render the HTML pages of the application.
+* The application was built using `Axios`, `JSON`, and `EJS`.
+* `Axios` was used to send HTTP requests to the `OpenWeatherMap API`.
+* `EJS` was used to render the HTML pages of the application.
 * The project was a great way to apply the skills I had learned over the course of my web development journey.
 * The project documentation can be found at this link : **https://github.com/0Phonlakit/Weather-App**
 <hr />
 
+### Day 26: DIY APIs
+#### On the twenty-sixth day of my web development journey, I learned about DIY APIs.
+* DIY APIs
+  * DIY APIs, or do-it-yourself APIs, are APIs that you create yourself
+  * They are a great way to learn about APIs and how they work.
+  * DIY APIs can also be used to create simple applications that do not require a third-party API.
+  * To create a DIY API, you will need to do the following:
+    * Create a JSON file to store your API data.
+    * Define the functions that your API will support.
+    * Test your API using an API tester, such as Postman.
+  * In the code, you will call the following functions:
+    * `.get()` to retrieve data from the API.
+    * `.post()` to create new data in the API.
+    * `.put()` to update existing data in the API.
+    * `.patch()` to update a specific part of existing data in the API.
+    * `.delete()` to delete data from the API.
+* Blog API Project
+  * In this project, I used my knowledge of APIs to create a web application that stores blog posts.
+  * The application uses a DIY API to retrieve data from the database.
+  * The application can do the following:
+    * Search for a blog post by ID using `.get()`.
+    * Create a new blog post using `.post()`.
+    * Update some of the data in a blog post using `.patch()`.
+    * Delete a blog post by ID using `.delete()`.
 
+I learned a lot about DIY APIs in this lesson. I learned how to create a DIY API, how to test a DIY API, and how to use a DIY API in a web application. I am excited to continue learning about APIs and how they can be used to create web applications. 
+<hr />
