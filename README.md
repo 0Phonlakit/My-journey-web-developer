@@ -479,3 +479,31 @@ I learned a lot about EJS in this lesson. I learned how to use EJS tags, pass da
 
 I learned a lot about DIY APIs in this lesson. I learned how to create a DIY API, how to test a DIY API, and how to use a DIY API in a web application. I am excited to continue learning about APIs and how they can be used to create web applications. 
 <hr />
+
+### Day 27: Using Postgres with JavaScript
+#### On the twenty-seventh day of my web development journey, I learned about using Postgres with JavaScript.
+* World Capital Quiz
+  * In this project, I used Postgres to create a quiz game that tests users on the capital cities of the world.
+  * I used the following steps to create the game:
+     * I imported the `pg` library from Node.js.
+     * I created a `new pg.Client` object to connect to the Postgres database.
+     * I used the `random()` function to generate a random capital city.
+     * I used the `SELECT * FROM` statement to retrieve the data from the database.
+* Postgres Read
+   * In this project, I used Postgres to create a game that tests users on the names of countries from their flags.
+   * I used the following steps to create the game:
+      * Postgres can store image data by using a URL or special symbol.
+* Travel Tracker
+   * In this project, I used Postgres to create a travel tracker that allows users to track their travel expenses.
+   * I used the following steps to create the tracker:
+      * I created two tables in the Postgres database: one for expenses and one for categories.
+      * In JavaScript, you can query data from Postgres to display it separately.
+* Travel Tracker 2
+  * In this project, I expanded on the Travel Tracker project by adding a relationship between the two tables.
+  * I used the `SELECT` statement to retrieve data from the tables.
+  * I used the `FOREIGN KEY` constraint to create the relationship.
+  * I used the `INSERT INTO` statement to add data to the tables, taking into account the relationship.
+ 
+I learned a lot about using Postgres with JavaScript in this lesson. I learned how to connect to Postgres from JavaScript, how to query data from Postgres, and how to add data to Postgres. I am excited to continue learning about Postgres and how it can be used to create web applications.
+<hr />
+  
