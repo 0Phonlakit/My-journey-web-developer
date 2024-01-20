@@ -507,3 +507,15 @@ I learned a lot about DIY APIs in this lesson. I learned how to create a DIY API
 I learned a lot about using Postgres with JavaScript in this lesson. I learned how to connect to Postgres from JavaScript, how to query data from Postgres, and how to add data to Postgres. I am excited to continue learning about Postgres and how it can be used to create web applications.
 <hr />
   
+### Day 28: Additional Postgres with JavaScript
+#### On the twenty-eighth day of my web development journey, I learned more about Postgres by using JavaScript.
+* Travel Tracker Part 3
+   * In index1.js, I added a condition to alert the user when they enter data that is not in the database.
+   * In index2.js, I added a condition to allow the user to enter the country abbreviation they want to add.
+* Family Travel Tracker
+   * This web application stores individual travel data, such as which countries the user has visited.
+   * Users can add members through the website.
+* Permalist Project
+   * This project uses all of the knowledge I have learned about Postgres. Permalist Project is similar to the Capstone Project - Blog web, but the data is stored in the database. This means that the data will not be lost even if the website is closed.
+ <hr />
+ 
