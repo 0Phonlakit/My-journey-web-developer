@@ -519,3 +519,21 @@ I learned a lot about using Postgres with JavaScript in this lesson. I learned h
    * This project uses all of the knowledge I have learned about Postgres. Permalist Project is similar to the Capstone Project - Blog web, but the data is stored in the database. This means that the data will not be lost even if the website is closed.
  <hr />
  
+### Day 29: Authentication with JavaScript
+#### On the twenty-ninth day of my web development journey, I learned about authentication with JavaScript.
+* Secrets - Starting Code Level 1
+   * I created a system to store email and passwords in Postgres.
+   * The data in Postgres was not encrypted.
+* Secrets - Starting Code Level 2
+   * Postgres uses pgcrypto to encrypt passwords.
+   * To use pgcrypto, you need to use pgp_sym_encrypt to store the password and pgp_sym_decrypt to restore the password to log in.
+   * This method helps prevent password hacking at a basic level.
+* Secrets - Starting Code Level 3
+   * MD5 (message-digest algorithm) is used to protect passwords in Postgres.
+   * This method generates a hash to protect the password, which is more secure than level 2.
+   * This method is more difficult to hack than level 2, but if you set a simple password, it can be easily hacked.
+* Secrets - Starting Code Level 4
+   * Bcrypt is used to protect passwords in Postgres.
+   * This method uses random salt to make the hash generation more complex, which makes the password more secure.
+   * With random salt, if you create the same password, but when you look at the data in Postgres, you will find that the password table will be a different hash.
+<hr />
