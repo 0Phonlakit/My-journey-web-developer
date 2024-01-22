@@ -537,3 +537,16 @@ I learned a lot about using Postgres with JavaScript in this lesson. I learned h
    * This method uses random salt to make the hash generation more complex, which makes the password more secure.
    * With random salt, if you create the same password, but when you look at the data in Postgres, you will find that the password table will be a different hash.
 <hr />
+
+### Day 30: Additional Authentication with JavaScript
+#### On the thirtieth day of my web development journey, I learned about additional authentication with JavaScript.
+* Secrets - Starting Code Level 5
+   * Cookies are used to store data that the user has used. When the user logs out, the cookies are deleted. When the user logs in again, the system restores the data that the user used.
+   * Using cookies makes website access more secure.
+* Secrets - Starting Code Level 6
+   * Google authentication is used to provide the highest level of password protection. You need to call `google_client_id` and `google_client_secret`.
+   * When you visit the website, you can log in through Google authentication.
+   * The password data stored in Postgres is `"Google"` in every field to confirm that Google authentication is used.
+* Secrets Project
+   * This project uses the knowledge of authentication to create a website that stores users' secrets. When a user signs up, they can store the secrets they want. When they log in, the secrets they wrote will be displayed after logging in. The data is stored and retrieved from Postgres.
+<hr />
