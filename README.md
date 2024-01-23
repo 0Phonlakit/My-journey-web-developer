@@ -550,3 +550,40 @@ I learned a lot about using Postgres with JavaScript in this lesson. I learned h
 * Secrets Project
    * This project uses the knowledge of authentication to create a website that stores users' secrets. When a user signs up, they can store the secrets they want. When they log in, the secrets they wrote will be displayed after logging in. The data is stored and retrieved from Postgres.
 <hr />
+
+### Day 31: React with JavaScript
+#### On the thirty-first day of my web development journey, I learned about React with JavaScript.
+* Basic React
+   * Introduction to JSX
+      * .jsx files are the file extension for React.
+      * To run the React library, you can call `ReactDOM.render(element)`.
+   * Basic React Practice
+      * `ReactDOM.render` can only store one element at a time. To store multiple elements, call `<div> </div>`.
+      * The main call to `<div>` can store all elements in the form of HTML.
+   * JavaScript expression in JSX
+      * You can call values declared outside `ReactDOM.render(element)`.
+      * If you want to use values outside ReactDOM, the data outside ReactDOM must be stored in curly braces `{}`.
+   * JavaScript expression in JSX Practice
+      * Create a variable to store the year value through `new Date().getFullYear()`.
+      * Bring the value stored in year to display in `ReactDOM`.
+   * Inline Styling in JSX
+      * In React, you can use CSS using the style command, and then do everything like CSS.
+   * Inline Styling in JSX Practice
+      * Create a condition based on the time. If the time is less than `12 o'clock`, display the message "`Good Morning`" and display the message in `red`. If the time is less than `18 o'clock`, display the message "`Good Afternoon`" and display the message in `green`. And other times, display the message "`Good Night`" and display the message in `blue`.
+   * Components
+      * You can call multiple files and display them in ReactDOM.
+      * To fetch data from one file to another, use `import (fileName) from "pathfileName";`.
+   * Components Practice
+      * This is using the code from Inline Styling in JSX Practice, but the file is stored at path `Heading.jsx`.
+      * Fetch data from `Heading.jsx` and use it in `App.jsx` and call it through `index.js`.
+   * Import/Export Modules
+      * In React, you can create functions and, if you want to use the data, call `export default functionName;`.
+      * If there are multiple functions, you can use export `{ functionName1, functionName2 };`.
+   * Import/Export Modules Practice
+      * Create the functions `add`, `multiply`, `subtract`, and `divide` by calling `export { add, multiply, subtract, divide };`. In the function, there are `n1` and `n2`.
+      * Call all functions through ReactDOM.
+   * Keeper App Project Part 1
+      * Create a React environment in **`Node.js`** using the command **`npx create-next-app@latest`**.
+      * Create a Keeper App to store rough data using all the knowledge from before.
+      * To run React, use the command **`npm start`**.
+<hr />
