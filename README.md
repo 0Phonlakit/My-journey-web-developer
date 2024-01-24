@@ -587,3 +587,13 @@ I learned a lot about using Postgres with JavaScript in this lesson. I learned h
       * Create a Keeper App to store rough data using all the knowledge from before.
       * To run React, use the command **`npm start`**.
 <hr />
+
+### Day 32: React with JavaScript, Part 2
+#### On the thirty-second day of my web development journey, I learned about React with JavaScript, Part 2.
+* React Props
+   * Props are used to pass data from one component to another.
+   * The data is stored as an array, so you need to use `props` to access the data, and then use `.(info.)` to store the data.
+* React DevTools
+   * React DevTools is a browser extension that can be used to inspect components.
+   * It can help you debug your code faster.
+<hr />
