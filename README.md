@@ -597,3 +597,18 @@ I learned a lot about using Postgres with JavaScript in this lesson. I learned h
    * React DevTools is a browser extension that can be used to inspect components.
    * It can help you debug your code faster.
 <hr />
+
+### Day 33: React with JavaScript, Part 3
+#### On the thirty-third day of my web development journey, I learned about React with JavaScript, Part 3.
+* Mapping Data to Components
+   * To query data in React, you can use the `{pathData.map(function)}` command.
+   * In the function, you can store the data as an array to use in `.map()`.
+* Mapping Data Practice
+   * Practice using Mapping Data to query data from the `emojipedia.js` file.
+   * Use a function to store the data in the `emojipedia.js` file to use on the web page.
+* JavaScript ES6
+   * Learn tools to make your code more concise. For example, `.map()` can be used like this: `const newNumber = numbers.map(function(num) { return num * 2; });` This code multiplies the values in the array by 2. If you console.log(newNumber), you will see that the values in the array are twice as large.
+* JavaScript ES6 Arrow function
+   * Use your knowledge of JavaScript ES6 to replace creating a separate function in `.map()`. This makes the code look simpler and more concise.
+   * However, using JavaScript ES6 can be difficult to understand for beginners.
+<hr />
