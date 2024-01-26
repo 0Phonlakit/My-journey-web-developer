@@ -612,3 +612,24 @@ I learned a lot about using Postgres with JavaScript in this lesson. I learned h
    * Use your knowledge of JavaScript ES6 to replace creating a separate function in `.map()`. This makes the code look simpler and more concise.
    * However, using JavaScript ES6 can be difficult to understand for beginners.
 <hr />
+
+### Day 34: React with JavaScript, Part 4
+#### On the thirty-fourth day of my web development journey, I learned about React with JavaScript, Part 4.
+* Keeper App Project Part 2
+   * I used the knowledge I learned from Mapping and JavaScript ES6 to use `.map()` to query data from the `notes.js` file and display it on the website.
+* Conditional Rendering
+   * Conditional rendering is about checking conditions to access content within a website.
+   * The code `{ prop.isRegistered ? "Login" : "Registered" }` uses the question mark `(?)` to check if the data stored in `isRegistered` is `true` or `false`. If it is `true`, the page `"Login"` is displayed. If it is `fals`e, the page `"Registered"` is displayed.
+* Conditional Rendering Practice
+   * I practiced using conditional rendering.
+   * The code `{ Condition ? True : False }` checks if the data provided by the user is true or false.
+   * The code `{ Condition1 (operators) Condition2 && True }` checks if the condition on the right is true. If it is, the code on the left is displayed. Otherwise, nothing is displayed.
+* Hooks
+   * Hooks are a way to store data that can be changed in real time.
+   * To use hooks, you can use the following syntax: `const [Object, setObject] = useState(0);`. The `useState()` function sets the initial condition for the hook.
+* Hooks Practice
+   * I practiced using hooks.
+   * In the first part, I used hooks to get the current time. When the user clicked the "Get Time" button, the current time was displayed.
+   * In the second part, I also used hooks to get the current time. However, this time, the current time was displayed when the user clicked the "Get Time" button, and the time continued to increment automatically.
+<hr />
+  
