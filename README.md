@@ -633,3 +633,22 @@ I learned a lot about using Postgres with JavaScript in this lesson. I learned h
    * In the second part, I also used hooks to get the current time. However, this time, the current time was displayed when the user clicked the "Get Time" button, and the time continued to increment automatically.
 <hr />
   
+### Day 35: React with JavaScript, Part 5
+#### On the thirty-fifth day of my web development journey, I learned about React with JavaScript, Part 5.
+* Object and Array Destructuring
+   * Object and array destructuring is a way to extract data from complex arrays and objects into variables.
+   * If an array contains nested data, you can use destructuring to extract the data into separate variables.
+* Event Handling
+   * Event handling is the process of assigning events to elements on a website.
+   * In this lesson, I assigned events to the submit button and the input field.
+   * The submit button event changed the background color to black when the mouse hovered over it and to white when the mouse was moved away.
+   * The input field event displayed the name that the user typed in.
+* Forms
+   * Forms are used to collect data from users.
+   * In this lesson, I created a form that collected the user's name and email address.
+   * This code is concise, but it is not suitable for beginners.
+* Class Components
+   * Class components make code look more object-oriented.
+   * Classes provide structure and reduce errors.
+   * Class components are more complex than functional components, but they are more maintainable in the long run.
+<hr / >
