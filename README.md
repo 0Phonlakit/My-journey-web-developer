@@ -652,3 +652,20 @@ I learned a lot about using Postgres with JavaScript in this lesson. I learned h
    * Classes provide structure and reduce errors.
    * Class components are more complex than functional components, but they are more maintainable in the long run.
 <hr / >
+
+### Day 36: React with JavaScript, Part 6
+#### On the thirty-sixth day of my web development journey, I learned about React with JavaScript, Part 6.
+* Complex State
+   * Complex state is a way to store multiple data in a single state variable.
+   * To use complex state, you need to declare a function that returns an object with the data you want to store.
+* Complex State Practice
+   * In this practice, I stored three pieces of data in a complex state: `name`, `surname`, and `email`.
+   * I also displayed the data that the user entered automatically after they typed it.
+* Spread Operator
+   * The spread operator is a way to spread the elements of an array or object into another array or object.
+   * To use the spread operator, you can use the syntax `...(object)`.
+* Spread Operator Practice
+   * In this practice, I used the spread operator to split the input that the user entered into two parts.
+   * The `first part`, stored the value that the user entered directly, which was not yet pressed.
+   * The `second part`, after the user pressed the button, the data entered in the first part was retrieved and stored in the second part and displayed as a list.
+<hr />
