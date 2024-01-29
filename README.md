@@ -669,3 +669,20 @@ I learned a lot about using Postgres with JavaScript in this lesson. I learned h
    * The `first part`, stored the value that the user entered directly, which was not yet pressed.
    * The `second part`, after the user pressed the button, the data entered in the first part was retrieved and stored in the second part and displayed as a list.
 <hr />
+
+### Day 37: React with JavaScript, Part 7
+#### On the thirty-seventh day of my web development journey, I learned about React with JavaScript, Part 7.
+* Managing a Component Tree
+   * Managing a component tree is the process of connecting components to each other.
+   * In this code, `App.js` is the main component, and `ToDoItem.js` is a component that is part of `App.js`.
+* Managing a Component Tree Practice
+   * I practiced using the concept of managing a component tree by taking the code from the Managing a Component Tree file and adding one more component to store the value that the user typed in.
+   * The component that stores the value that the user typed in is in the InputArea file, which is a component that is part of `App.js`.
+* Keeper App Project Part 3
+   * I applied the knowledge I had learned to create a complete Keeper App website.
+   * In the app, users can add a title and content. The data that the user enters is stored in a list and displayed when the user clicks the add button.
+   * Users can create as many notes as they want, but when the server is shut down, all data is lost.
+* Dependencies and Styling Keeper App Project
+   * Adding dependencies and styling can make the website look more beautiful and modern.
+   * Using dependencies and styling can not only decorate the web, but it can also add icons or effects to the web.
+<hr />
