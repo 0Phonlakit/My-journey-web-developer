@@ -203,7 +203,7 @@
 #### On the twelfth day of my web development journey, I learned about the intermediate concepts of JavaScript. JavaScript is a programming language that is used to add interactivity to web pages.
 * Random
   * Random is a function that can be used to generate a random number. 
-  * The `Math.random()` function returns a number between 0 and 1. [Image of The `Math.random()` function] 
+  * The `Math.random()` function returns a number between 0 and 1.
   * You can use the `Math.random()` function to generate random numbers for a variety of purposes, such as generating a random number for a game or creating a random password.
 * If-Else
   * If-else statements are used to execute code based on a condition. 
